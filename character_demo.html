@@ -99,18 +99,19 @@ var model = {};
 
 var initVocab = function(sents, count_threshold) {
   // go over all characters and keep track of all unique ones seen
-  var txt = sents.join(''); // concat all
-  console.log('sents coming in');
-  console.log(sents);
+  var txt = sents.join(' '); // concat all
+  var words = txt.split(' ');
+  console.log('the words are as follows');
+  console.log(words);
 
-  // count up all characters
+  // count up all words
   var d = {};
-  for(var i=0,n=txt.length;i<n;i++) {
-    var txti = txt[i];
+  for(var i=0,n=words.length;i<n;i++) {
+    var txti = words[i];
     if(txti in d) { d[txti] += 1; } 
     else { d[txti] = 1; }
   }
-
+  console.log(d);
   // filter by count threshold and create pointers
   letterToIndex = {};
   indexToLetter = {};
@@ -119,18 +120,19 @@ var initVocab = function(sents, count_threshold) {
   // that is, START token will be index 0 in model letter vectors
   // and END token will be index 0 in the next character softmax
   var q = 1; 
-  for(ch in d) {
-    if(d.hasOwnProperty(ch)) {
-      if(d[ch] >= count_threshold) {
+  for(word in d) {
+    console.log('');
+    if(d.hasOwnProperty(word)) {
+      if(d[word] >= count_threshold) {
         // add character to vocab
-        letterToIndex[ch] = q;
-        indexToLetter[q] = ch;
-        vocab.push(ch);
+        letterToIndex[word] = q;
+        indexToLetter[q] = word;
+        vocab.push(word);
         q++;
       }
     }
   }
-
+  console.log(vocab);
   // globals written: indexToLetter, letterToIndex, vocab (list), and:
   input_size = vocab.length + 1;
   output_size = vocab.length + 1;
@@ -269,6 +271,10 @@ var loadModel = function(j) {
 }
 
 var forwardIndex = function(G, model, ix, prev) {
+  // console.log('THIS IS THE MODEL');
+  // console.log(model);
+  // console.log('THIS IS IX');
+  // console.log(ix);
   var x = G.rowPluck(model['Wil'], ix);
   // forward prop the sequence learner
   if(generator === 'rnn') {
@@ -282,10 +288,12 @@ var forwardIndex = function(G, model, ix, prev) {
 var predictSentence = function(model, samplei, temperature) {
   if(typeof samplei === 'undefined') { samplei = false; }
   if(typeof temperature === 'undefined') { temperature = 1.0; }
-
+  console.log();
   var G = new R.Graph(false);
   var s = '';
   var prev = {};
+  // console.log('this is s');
+  // console.log(s);
   while(true) {
 
     // RNN tick
@@ -334,7 +342,8 @@ var costfun = function(model, sent) {
     // start and end tokens are zeros
     var ix_source = i === -1 ? 0 : letterToIndex[sent[i]]; // first step: start with START token
     var ix_target = i === n-1 ? 0 : letterToIndex[sent[i+1]]; // last step: end with END token
-
+    // console.log('ix source');
+    // console.log(ix_source);
     lh = forwardIndex(G, model, ix_source, prev);
     prev = lh;
 
