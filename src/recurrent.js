@@ -18,6 +18,8 @@ var R = {}; // the Recurrent library
   // Random numbers utils
   var return_v = false;
   var v_val = 0.0;
+  // create random gaussian value 
+  // is used on line 42
   var gaussRandom = function() {
     if(return_v) { 
       return_v = false;
@@ -26,10 +28,13 @@ var R = {}; // the Recurrent library
     var u = 2*Math.random()-1;
     var v = 2*Math.random()-1;
     var r = u*u + v*v;
+     // r is a random number between 0 and 1 
     if(r == 0 || r > 1) return gaussRandom();
+
     var c = Math.sqrt(-2*Math.log(r)/r);
     v_val = v*c; // cache this
     return_v = true;
+    // return gaussian value 
     return u*c;
   }
   var randf = function(a, b) { return Math.random()*(b-a)+a; }

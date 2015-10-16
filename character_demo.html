@@ -100,6 +100,8 @@ var model = {};
 var initVocab = function(sents, count_threshold) {
   // go over all characters and keep track of all unique ones seen
   var txt = sents.join(''); // concat all
+  console.log('sents coming in');
+  console.log(sents);
 
   // count up all characters
   var d = {};
@@ -143,7 +145,7 @@ var utilAddToModel = function(modelto, modelfrom) {
       modelto[k] = modelfrom[k];
     }
   }
-}
+};
 
 var initModel = function() {
   // letter embedding vectors
