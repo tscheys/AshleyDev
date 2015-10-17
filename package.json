@@ -1,0 +1,23 @@
+{
+  "name": "recurrentjs",
+  "version": "1.0.0",
+  "description": "RecurrentJS is a Javascript library that implements:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tscheys/recurrentjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tscheys/recurrentjs/issues"
+  },
+  "homepage": "https://github.com/tscheys/recurrentjs#readme",
+  "dependencies": {
+    "fs": "0.0.2",
+    "natural": "^0.2.1"
+  }
+}
