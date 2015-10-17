@@ -53,13 +53,15 @@ var R = {}; // the Recurrent library
     } else {
       return new Float64Array(n);
     }
-  }
+  };
 
   // Mat holds a matrix
   var Mat = function(n,d) {
     // n is number of rows d is number of columns
     this.n = n;
     this.d = d;
+    // this.w holds an array of zeros
+    // this.dw (dirivative?) holds an array of zeros
     this.w = zeros(n * d);
     this.dw = zeros(n * d);
   }
@@ -68,12 +70,14 @@ var R = {}; // the Recurrent library
       // slow but careful accessor function
       // we want row-major order
       var ix = (this.d * row) + col;
+      // console.log('in Mat prototype');
       assert(ix >= 0 && ix < this.w.length);
       return this.w[ix];
     },
     set: function(row, col, v) {
       // slow but careful accessor function
       var ix = (this.d * row) + col;
+        // console.log('in Set prototype');
       assert(ix >= 0 && ix < this.w.length);
       this.w[ix] = v; 
     },
@@ -114,7 +118,7 @@ var R = {}; // the Recurrent library
     this.needs_backprop = needs_backprop;
 
     // this will store a list of functions that perform backprop,
-    // in their forward pass order. So in backprop we will go
+    // in their forward pass order. So in backpropagation we will go
     // backwards and evoke each one
     this.backprop = [];
   }
@@ -126,6 +130,8 @@ var R = {}; // the Recurrent library
     },
     rowPluck: function(m, ix) {
       // pluck a row of m with index ix and return it as col vector
+      // console.log('in row pluck');
+      // console.log(m.n);
       assert(ix >= 0 && ix < m.n);
       var d = m.d;
       var out = new Mat(d, 1);
@@ -197,6 +203,8 @@ var R = {}; // the Recurrent library
     },
     mul: function(m1, m2) {
       // multiply matrices m1 * m2
+      // console.log('assert mul');
+      // console.log(m1.d, m2.n);
       assert(m1.d === m2.n, 'matmul dimensions misaligned');
 
       var n = m1.n;
@@ -229,8 +237,8 @@ var R = {}; // the Recurrent library
       return out;
     },
     add: function(m1, m2) {
+      // console.log('in add');
       assert(m1.w.length === m2.w.length);
-
       var out = new Mat(m1.n, m1.d);
       for(var i=0,n=m1.w.length;i<n;i++) {
         out.w[i] = m1.w[i] + m2.w[i];
@@ -247,6 +255,9 @@ var R = {}; // the Recurrent library
       return out;
     },
     eltmul: function(m1, m2) {
+      // console.log('in eltmul');
+      // console.log(m1.w.length);
+      // console.log(m2.w.length);
       assert(m1.w.length === m2.w.length);
 
       var out = new Mat(m1.n, m1.d);
@@ -388,6 +399,7 @@ var R = {}; // the Recurrent library
       // input gate
       var h0 = G.mul(model['Wix'+d], input_vector);
       var h1 = G.mul(model['Wih'+d], hidden_prev);
+      // console.log('making vectors ');
       var input_gate = G.sigmoid(G.add(G.add(h0,h1),model['bi'+d]));
 
       // forget gate
@@ -465,6 +477,7 @@ var R = {}; // the Recurrent library
 
       var h0 = G.mul(model['Wxh'+d], input_vector);
       var h1 = G.mul(model['Whh'+d], hidden_prev);
+      // console.log('in forward rnn');
       var hidden_d = G.relu(G.add(G.add(h0, h1), model['bhh'+d]));
 
       hidden.push(hidden_d);
@@ -531,3 +544,5 @@ var R = {}; // the Recurrent library
   global.Graph = Graph;
   
 })(R);
+
+module.exports = R;
