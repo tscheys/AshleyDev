@@ -5,28 +5,34 @@ var fs = require('fs');
 var natural = require('natural');
 
 // Model parameters 
-var sample_softmax_temperature = 1.0; // how peaky model predictions should be
+var sample_softmax_temperature = Math.pow(10, 0.5); // how peaky model predictions should be
+// var sample_softmax_temperature = 1.0;
+var generator = 'lstm'; // can also be rnn
 var max_chars_gen = 100; // max length of generated sentences
 var epoch_size = -1;
 var input_size = -1;
 var output_size = -1;
-var letterToIndex = {};
-var indexToLetter = {};
-var letterSize = 
+var letter_size = 5;
+var hidden_sizes = [20,20]; // list of sizes of hidden layers
+var regc = 0.000001; // L2 regularization strength
+var learning_rate = 0.01; // learning rate
+var clipval = 5.0; 
 
 // Global variables
+var letterToIndex = {};
+var indexToLetter = {};
 var vocab = [];
 var data_sents = [];
 var solver = new R.Solver(); // should be class because it needs memory for step caches
 var pplGraph = new Rvis.Graph();
 
 var model = {};
+var tokenizer = new natural.WordPunctTokenizer();
 
 var initVocab = function(sents, count_threshold) {
   // go over all words and keep track of all unique ones seen
   // join all the sentences
   var fullText = sents.join(' '); 
-  var tokenizer = new natural.WordPunctTokenizer();
   var tokens = tokenizer.tokenize(fullText);
   // count up all words
   var wordCount = {};
@@ -37,6 +43,7 @@ var initVocab = function(sents, count_threshold) {
     if(txti in wordCount) { wordCount[txti] += 1; } 
     else { wordCount[txti] = 1; }
   }
+  console.log('wordCount', wordCount['.']);
   // filter by count threshold and create pointers
   letterToIndex = {};
   indexToLetter = {};
@@ -83,43 +90,13 @@ var initModel = function() {
   }
 
   return model;
-}
+};
 // min: Math.log10(0.01) - 3.0,
 // max: Math.log10(0.01) + 0.05,
 learning_rate = Math.pow(10, 0.01);
 
-// var reinit_learning_rate_slider = function() {
-//   // init learning rate slider for controlling the decay
-//   // note that learning_rate is a global variable
-//   $("#lr_slider").slider({
-//     min: Math.log10(0.01) - 3.0,
-//     max: Math.log10(0.01) + 0.05,
-//     step: 0.05,
-//     value: Math.log10(learning_rate),
-//     slide: function( event, ui ) {
-//       learning_rate = Math.pow(10, ui.value);
-//       $("#lr_text").text(learning_rate.toFixed(5));
-//     }
-//   });
-//   $("#lr_text").text(learning_rate.toFixed(5));
-// }
-
 var reinit = function() {
   // note: reinit writes global vars
-  
-  // eval options to set some globals
-  // eval($("#newnet").val());
-  // // model parameters
-  // generator = 'lstm'; // can be 'rnn' or 'lstm'
-  // hidden_sizes = [20,20]; // list of sizes of hidden layers
-  // letter_size = 5; // size of letter embeddings
-
-  // // optimization
-  // regc = 0.000001; // L2 regularization strength
-  // learning_rate = 0.01; // learning rate
-  // clipval = 5.0; // clip gradients at this value
-  // reinit_learning_rate_slider();
-
   solver = new R.Solver(); // reinit solver
   pplGraph = new Rvis.Graph();
 
@@ -139,6 +116,9 @@ var reinit = function() {
 
   initVocab(data_sents, 1); // takes count threshold for characters
   model = initModel();
+  for (var i = 0; i < 1000; i++) {
+    tick();
+  }
 }
 
 var saveModel = function() {
@@ -203,10 +183,6 @@ var loadModel = function(j) {
 }
 
 var forwardIndex = function(G, model, ix, prev) {
-  // console.log('THIS IS THE MODEL');
-  // console.log(model);
-  // console.log('THIS IS IX');
-  // console.log(ix);
   var x = G.rowPluck(model['Wil'], ix);
   // forward prop the sequence learner
   if(generator === 'rnn') {
@@ -218,6 +194,7 @@ var forwardIndex = function(G, model, ix, prev) {
 }
 
 var predictSentence = function(model, samplei, temperature) {
+  console.log('in predict sentence');
   if(typeof samplei === 'undefined') { samplei = false; }
   if(typeof temperature === 'undefined') { temperature = 1.0; }
   console.log();
@@ -227,14 +204,11 @@ var predictSentence = function(model, samplei, temperature) {
   // console.log('this is s');
   // console.log(s);
   while(true) {
-    var lastS = s.split(' ');
-    // console.log('ix request');
-    // console.log(lastS);
+    var tokens = tokenizer.tokenize(s);
+    console.log(tokens);
     // RNN tick
-    var ix = s.length === 0 ? 0 : letterToIndex[lastS[lastS.length-2]];
-    // console.log('params');
+    var ix = s.length === 0 ? 0 : letterToIndex[tokens[tokens.length - 1]];
 
-    // console.log(ix, prev);
     // ix should be a word, space, other character 
     var lh = forwardIndex(G, model, ix, prev);
     prev = lh;
@@ -262,43 +236,28 @@ var predictSentence = function(model, samplei, temperature) {
     if(s.length > max_chars_gen) { break; } // something is wrong
     var letter = indexToLetter[ix];
     s += letter + ' ';
-    // console.log('what does s look like');
-    // console.log(s);
   }
   return s;
-}
+};
 
 var costfun = function(model, sent) {
   // takes a model and a sentence and
   // calculates the loss. Also returns the Graph
   // object which can be used to do backprop
   // adjust constfunc for words 
-  // var words = sent.split(' ');
-  // words is not enough 
-  // should also be an array of symbols and spaces
-  var words = []
-  for(var i = 0; i < sent.length; i++) {
-    if(sent[i] === ' ') {
-
-    }
-  }
-
-  var n = words.length;
+  var tokens = tokenizer.tokenize(sent);
+  // console.log(sent);
+  var n = tokens.length;
   var G = new R.Graph();
   var log2ppl = 0.0;
   var cost = 0.0;
   var prev = {};
-  for(var i=-1;i<n;i++) {
+  for(var i=-1; i<n; i++) {
     // start and end tokens are zeros
-
-    // strip away commas 
-    if(words[i][words[i].length - 1] === ',') {
-      words[i] = words[i].substr(0, words[i].length - 1);
-    }
-    var ix_source = i === -1 ? 0 : letterToIndex[words[i]]; // first step: start with START token
-    var ix_target = i === n-1 ? 0 : letterToIndex[words[i+1]]; // last step: end with END token
-      console.log('ix source');
-      console.log(words[i]);
+    var ix_source = i === -1 ? 0 : letterToIndex[tokens[i]]; // first step: start with START token
+    var ix_target = i === n-1 ? 0 : letterToIndex[tokens[i+1]]; // last step: end with END token
+    console.log(tokens[i]);
+    console.log(ix_source);
     lh = forwardIndex(G, model, ix_source, prev);
     prev = lh;
 
@@ -311,7 +270,7 @@ var costfun = function(model, sent) {
 
     // write gradients into log probabilities
     logprobs.dw = probs.w;
-    logprobs.dw[ix_target] -= 1
+    logprobs.dw[ix_target] -= 1;
   }
   var ppl = Math.pow(2, log2ppl / (n - 1));
   return {'G':G, 'ppl':ppl, 'cost':cost};
@@ -326,6 +285,7 @@ function median(values) {
 
 var ppl_list = [];
 var tick_iter = 0;
+
 var tick = function() {
 
   // sample sentence fromd data
@@ -333,7 +293,6 @@ var tick = function() {
   var sent = data_sents[sentix];
 
   var t0 = +new Date();  // log start timestamp
-
   // evaluate cost function on a sentence
   // console.log('in tick function');
   // console.log(sent);
@@ -411,57 +370,8 @@ var gradCheck = function() {
       }
     }
   }
-}
-//  set softMax temp
-var sample_softmax_temperature = Math.pow(10, 0.5);
-console.log('started');
+};
+// start training your model
 reinit();
-// var iid = null;
-// $(function() {
 
-//   // attach button handlers
-//   $('#learn').click(function(){ 
-//     reinit();
-//     if(iid !== null) { clearInterval(iid); }
-//     iid = setInterval(tick, 0); 
-//   });
-//   $('#stop').click(function(){ 
-//     if(iid !== null) { clearInterval(iid); }
-//     iid = null;
-//   });
-//   $("#resume").click(function(){
-//     if(iid === null) {
-//       iid = setInterval(tick, 0); 
-//     }
-//   });
 
-  // $("#savemodel").click(saveModel);
-  // $("#loadmodel").click(function(){
-  //   var j = JSON.parse($("#tio").val());
-  //   loadModel(j);
-  // });
-
-  // $("#loadpretrained").click(function(){
-  //   $.getJSON("lstm_100_model.json", function(data) {
-  //     pplGraph = new Rvis.Graph();
-  //     learning_rate = 0.0001;
-  //     reinit_learning_rate_slider();
-  //     loadModel(data);
-  //   });
-  // });
-
-  // $("#learn").click(); // simulate click on startup
-
-  //$('#gradcheck').click(gradCheck);
-  // set softmax temperature min: -1, max: 1.05
-  // $("#temperature_slider").slider({
-  //   min: -1,
-  //   max: 1.05,
-  //   step: 0.05,
-  //   value: 0,
-  //   slide: function( event, ui ) {
-  //     sample_softmax_temperature = Math.pow(10, ui.value);
-  //     $("#temperature_text").text( sample_softmax_temperature.toFixed(2) );
-  //   }
-  // });
-// });
