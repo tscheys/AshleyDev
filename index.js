@@ -3,6 +3,7 @@ var R = require('./src/recurrent.js');
 var Rvis = require('./src/vis.js');
 var fs = require('fs');
 var natural = require('natural');
+var moment = require('moment');
 
 // Model parameters 
 var sample_softmax_temperature = Math.pow(10, 0.5); // how peaky model predictions should be
@@ -13,41 +14,44 @@ var epoch_size = -1;
 var input_size = -1;
 var output_size = -1;
 var letter_size = 5;
-var hidden_sizes = [20,20]; // list of sizes of hidden layers
+var hidden_layers = 3;
+// TODO: change this variables to one number
+var hidden_sizes = [64,64,64]; // list of sizes of hidden layers
 var regc = 0.000001; // L2 regularization strength
 var learning_rate = 0.01; // learning rate
-var clipval = 5.0; 
+var clipval = 5.0;
+// output params
+var total = ''; 
+var totalSample = '';
+// min: Math.log10(0.01) - 3.0,
+// max: Math.log10(0.01) + 0.05,
+// learning_rate = Math.pow(10, 0.01);
 
 // Global variables
 var letterToIndex = {};
 var indexToLetter = {};
 var vocab = [];
-var data_sents = [];
+var trainingSet = '';
 var solver = new R.Solver(); // should be class because it needs memory for step caches
 var pplGraph = new Rvis.Graph();
 
 var model = {};
-var tokenizer = new natural.WordPunctTokenizer();
+var tokenizer = new natural.RegexpTokenizer({pattern: /( |\w+|\!|\'|\"|\n)/i});
 
 var initVocab = function(sents, count_threshold) {
   // go over all words and keep track of all unique ones seen
   // join all the sentences
-  var fullText = sents.join(' '); 
-  var tokens = tokenizer.tokenize(fullText);
+  // var fullText = sents.join(''); 
+  var tokens = tokenizer.tokenize(sents);
   // count up all words
   var wordCount = {};
   // special chars, also considered as words 
   for(var i=0,n=tokens.length;i<n;i++) {
-    // count occurrence of words in our training text
     var txti = tokens[i];
     if(txti in wordCount) { wordCount[txti] += 1; } 
     else { wordCount[txti] = 1; }
   }
-  console.log('wordCount', wordCount['.']);
   // filter by count threshold and create pointers
-  letterToIndex = {};
-  indexToLetter = {};
-  vocab = [];
   // NOTE: start at one because we will have START and END tokens!
   // that is, START token will be index 0 in model letter vectors
   // and END token will be index 0 in the next character softmax
@@ -61,7 +65,6 @@ var initVocab = function(sents, count_threshold) {
       q++;
     }
   }
-  // globals written: indexToLetter, letterToIndex, vocab (list), and:
   input_size = vocab.length + 1;
   output_size = vocab.length + 1;
   epoch_size = sents.length;
@@ -91,9 +94,6 @@ var initModel = function() {
 
   return model;
 };
-// min: Math.log10(0.01) - 3.0,
-// max: Math.log10(0.01) + 0.05,
-learning_rate = Math.pow(10, 0.01);
 
 var reinit = function() {
   // note: reinit writes global vars
@@ -103,22 +103,22 @@ var reinit = function() {
   ppl_list = [];
   tick_iter = 0;
   // read in txt file 
-  var trainingSet = fs.readFileSync(__dirname + '/train.txt', 'utf8');
-  // process the input, filter out blanks
-  var data_sents_raw = trainingSet.split('\n');
-  data_sents = [];
-  for(var i=0;i < data_sents_raw.length; i++) {
-    var sent = data_sents_raw[i].trim();
-    if(sent.length > 0) {
-      data_sents.push(sent);
-    }
-  }
+  trainingSet = fs.readFileSync(__dirname + '/shakespeare.txt', 'utf8');
 
-  initVocab(data_sents, 1); // takes count threshold for characters
-  model = initModel();
-  for (var i = 0; i < 1000; i++) {
-    tick();
-  }
+  // check if there is a jsonfile 
+  fs.stat(__dirname + '/output/model.txt', function(err, result) {
+    if(err) {
+      console.log('creating new model');
+      initVocab(trainingSet, 1); // takes count threshold for characters
+      model = initModel();
+      setInterval(tick, 1000);
+    } else {
+      console.log('loading model');
+      model = JSON.parse(fs.readFileSync(__dirname + '/output/model.txt'));
+      loadModel(model);
+      setInterval(tick, 1000);
+    }
+  }); 
 }
 
 var saveModel = function() {
@@ -147,7 +147,7 @@ var saveModel = function() {
   out['letterToIndex'] = letterToIndex;
   out['indexToLetter'] = indexToLetter;
   out['vocab'] = vocab;
-  $("#tio").val(JSON.stringify(out));
+  fs.writeFileSync(__dirname + '/output/model.txt', JSON.stringify(out), 'utf8');
 }
 
 var loadModel = function(j) {
@@ -194,22 +194,18 @@ var forwardIndex = function(G, model, ix, prev) {
 }
 
 var predictSentence = function(model, samplei, temperature) {
-  console.log('in predict sentence');
+  // console.log('in predict sentence');
   if(typeof samplei === 'undefined') { samplei = false; }
   if(typeof temperature === 'undefined') { temperature = 1.0; }
-  console.log();
   var G = new R.Graph(false);
   var s = '';
   var prev = {};
-  // console.log('this is s');
-  // console.log(s);
   while(true) {
     var tokens = tokenizer.tokenize(s);
-    console.log(tokens);
     // RNN tick
+    console.log(s);
+    console.log(tokens);
     var ix = s.length === 0 ? 0 : letterToIndex[tokens[tokens.length - 1]];
-
-    // ix should be a word, space, other character 
     var lh = forwardIndex(G, model, ix, prev);
     prev = lh;
 
@@ -235,6 +231,7 @@ var predictSentence = function(model, samplei, temperature) {
     if(ix === 0) break; // END token predicted, break out
     if(s.length > max_chars_gen) { break; } // something is wrong
     var letter = indexToLetter[ix];
+    // console.log('added', letter, 'endadded');
     s += letter + ' ';
   }
   return s;
@@ -256,8 +253,6 @@ var costfun = function(model, sent) {
     // start and end tokens are zeros
     var ix_source = i === -1 ? 0 : letterToIndex[tokens[i]]; // first step: start with START token
     var ix_target = i === n-1 ? 0 : letterToIndex[tokens[i+1]]; // last step: end with END token
-    console.log(tokens[i]);
-    console.log(ix_source);
     lh = forwardIndex(G, model, ix_source, prev);
     prev = lh;
 
@@ -289,13 +284,15 @@ var tick_iter = 0;
 var tick = function() {
 
   // sample sentence fromd data
-  var sentix = R.randi(0,data_sents.length);
-  var sent = data_sents[sentix];
+  // split out trainingSet on /n
+  var lines = trainingSet.split('\n');
+  var sentix = R.randi(0,lines.length);
+  var sent = lines[sentix + 1] === '' ? lines[sentix] + '\n\n' : lines[sentix] + '\n';
+  // select randon sentence 
+  // add newline at end
 
   var t0 = +new Date();  // log start timestamp
   // evaluate cost function on a sentence
-  // console.log('in tick function');
-  // console.log(sent);
   var cost_struct = costfun(model, sent);
   
   // use built up graph to compute backprop (set .dw fields in mats)
@@ -311,66 +308,36 @@ var tick = function() {
 
   // evaluate now and then
   tick_iter += 1;
-  if(tick_iter % 50 === 0) {
-    // draw samples
-    $('#samples').html('');
+  if(tick_iter % 5 === 0) {
+    totalSample += '\n ============'+ moment().format('MMMM Do YYYY, hh:mm:ss a') +'============= \n';
     for(var q=0;q<5;q++) {
-      var pred = predictSentence(model, true, sample_softmax_temperature);
-      var pred_div = '<div class="apred">'+pred+'</div>'
-      $('#samples').append(pred_div);
+      var pred2 = predictSentence(model, false);
+      totalSample += pred2;
+      fs.writeFileSync(__dirname + '/output/samples.txt', totalSample, 'utf8');
     }
   }
-  if(tick_iter % 10 === 0) {
-    // draw argmax prediction
-    $('#argmax').html('');
-    var pred = predictSentence(model, false);
-    var pred_div = '<div class="apred">'+pred+'</div>'
-    $('#argmax').append(pred_div);
 
-    // keep track of perplexity
-    $('#epoch').text('epoch: ' + (tick_iter/epoch_size).toFixed(2));
-    $('#ppl').text('perplexity: ' + cost_struct.ppl.toFixed(2));
-    $('#ticktime').text('forw/bwd time per example: ' + tick_time.toFixed(1) + 'ms');
+  if(tick_iter % 10 === 0) {
+
+    // GREEDY argmax prediction
+    var pred = predictSentence(model, true, sample_softmax_temperature);
+    total += '\n ============'+ moment().format('MMMM Do YYYY, hh:mm:ss a') +'============= \n' + 
+    'PERPLEXITY: ' + cost_struct.ppl.toFixed(2) + '\n' + pred;
+    fs.writeFileSync(__dirname + '/output/test.txt', total, 'utf8');
 
     if(tick_iter % 100 === 0) {
       var median_ppl = median(ppl_list);
       ppl_list = [];
       console.log('tick function, graph call');
       pplGraph.add(tick_iter, median_ppl);
-      pplGraph.drawSelf(document.getElementById("pplgraph"));
+      // pplGraph.drawSelf(document.getElementById("pplgraph"));
     }
+    // save model
+  }
+  if(tick_iter % 10000) {
+    saveModel();
   }
 }
-
-var gradCheck = function() {
-  var model = initModel();
-  var sent = '^test sentence$';
-  var cost_struct = costfun(model, sent);
-  cost_struct.G.backward();
-  var eps = 0.000001;
-
-  for(var k in model) {
-    if(model.hasOwnProperty(k)) {
-      var m = model[k]; // mat ref
-      for(var i=0,n=m.w.length;i<n;i++) {
-        
-        oldval = m.w[i];
-        m.w[i] = oldval + eps;
-        var c0 = costfun(model, sent);
-        m.w[i] = oldval - eps;
-        var c1 = costfun(model, sent);
-        m.w[i] = oldval;
-
-        var gnum = (c0.cost - c1.cost)/(2 * eps);
-        var ganal = m.dw[i];
-        var relerr = (gnum - ganal)/(Math.abs(gnum) + Math.abs(ganal));
-        if(relerr > 1e-1) {
-          console.log(k + ': numeric: ' + gnum + ', analytic: ' + ganal + ', err: ' + relerr);
-        }
-      }
-    }
-  }
-};
 // start training your model
 reinit();
 
