@@ -18,6 +18,7 @@
   "homepage": "https://github.com/tscheys/recurrentjs#readme",
   "dependencies": {
     "fs": "0.0.2",
+    "moment": "^2.10.6",
     "natural": "^0.2.1"
   }
 }
