@@ -23,9 +23,12 @@ var clipval = 5.0;
 // output params
 var total = ''; 
 var totalSample = '';
-// min: Math.log10(0.01) - 3.0,
-// max: Math.log10(0.01) + 0.05,
-// learning_rate = Math.pow(10, 0.01);
+
+//file sources
+var trainingPath = '/shakespeare.txt';
+var modelPath = '/output' + trainingPath.slice(0, trainingPath.length-4) + 'model.txt';
+var samplePath = '/output' + trainingPath.slice(0, trainingPath.length-4) + 'samples.txt';
+var argmaxPath = '/output' + trainingPath.slice(0, trainingPath.length-4) + 'argmax.txt';
 
 // Global variables
 var letterToIndex = {};
@@ -103,10 +106,10 @@ var reinit = function() {
   ppl_list = [];
   tick_iter = 0;
   // read in txt file 
-  trainingSet = fs.readFileSync(__dirname + '/shakespeare.txt', 'utf8');
+  trainingSet = fs.readFileSync(__dirname + trainingPath, 'utf8');
 
   // check if there is a jsonfile 
-  fs.stat(__dirname + '/output/model.txt', function(err, result) {
+  fs.stat(__dirname + modelPath, function(err, result) {
     if(err) {
       console.log('creating new model');
       initVocab(trainingSet, 1); // takes count threshold for characters
@@ -114,7 +117,7 @@ var reinit = function() {
       setInterval(tick, 1000);
     } else {
       console.log('loading model');
-      model = JSON.parse(fs.readFileSync(__dirname + '/output/model.txt'));
+      model = JSON.parse(fs.readFileSync(__dirname + modelPath));
       loadModel(model);
       setInterval(tick, 1000);
     }
@@ -147,7 +150,7 @@ var saveModel = function() {
   out['letterToIndex'] = letterToIndex;
   out['indexToLetter'] = indexToLetter;
   out['vocab'] = vocab;
-  fs.writeFileSync(__dirname + '/output/model.txt', JSON.stringify(out), 'utf8');
+  fs.writeFileSync(__dirname + modelPath, JSON.stringify(out), 'utf8');
 }
 
 var loadModel = function(j) {
@@ -311,19 +314,19 @@ var tick = function() {
   if(tick_iter % 5 === 0) {
     totalSample += '\n ============'+ moment().format('MMMM Do YYYY, hh:mm:ss a') +'============= \n';
     for(var q=0;q<5;q++) {
-      var pred2 = predictSentence(model, false);
+      var pred2 = predictSentence(model, true, sample_softmax_temperature);
       totalSample += pred2;
-      fs.writeFileSync(__dirname + '/output/samples.txt', totalSample, 'utf8');
+      fs.writeFileSync(__dirname + samplePath, totalSample, 'utf8');
     }
   }
 
   if(tick_iter % 10 === 0) {
 
     // GREEDY argmax prediction
-    var pred = predictSentence(model, true, sample_softmax_temperature);
+    var pred = predictSentence(model, false);
     total += '\n ============'+ moment().format('MMMM Do YYYY, hh:mm:ss a') +'============= \n' + 
-    'PERPLEXITY: ' + cost_struct.ppl.toFixed(2) + '\n' + pred;
-    fs.writeFileSync(__dirname + '/output/test.txt', total, 'utf8');
+    'argmax PERPLEXITY: ' + cost_struct.ppl.toFixed(2) + '\n' + pred;
+    fs.writeFileSync(__dirname + argmaxPath, total, 'utf8');
 
     if(tick_iter % 100 === 0) {
       var median_ppl = median(ppl_list);
@@ -334,7 +337,7 @@ var tick = function() {
     }
     // save model
   }
-  if(tick_iter % 10000) {
+  if(tick_iter % 1200) {
     saveModel();
   }
 }
