@@ -293,12 +293,12 @@ var tick_iter = 0;
 
 var tick = function() {
 
-  // sample sentence fromd data
+  // sample sentence from data
   // split out trainingSet on /n
   var lines = trainingSet.split('\n');
   var sentix = R.randi(0,lines.length);
   var sent = lines[sentix + 1] === '' ? lines[sentix] + '\n\n' : lines[sentix] + '\n';
-  // select randon sentence 
+  // select random sentence 
   // add newline at end
 
   var t0 = +new Date();  // log start timestamp
@@ -341,9 +341,7 @@ var tick = function() {
     if(tick_iter % 100 === 0) {
       var median_ppl = median(ppl_list);
       ppl_list = [];
-      console.log('tick function, graph call');
       pplGraph.add(tick_iter, median_ppl);
-      // pplGraph.drawSelf(document.getElementById("pplgraph"));
     }
     // save model
   }
