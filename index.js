@@ -20,6 +20,7 @@ var hidden_sizes = [64,64,64]; // list of sizes of hidden layers
 var regc = 0.000001; // L2 regularization strength
 var learning_rate = 0.01; // learning rate
 var clipval = 5.0;
+var temperatures = [0.2, 0.4, 0.6, 1, 1.4, 1.8, 2.5, 2.8, 3.2, 4];
 // output params
 var total = ''; 
 var totalSample = '';
@@ -311,7 +312,6 @@ var tick = function() {
 
   // evaluate now and then
   tick_iter += 1;
-  var temperatures = [0.2, 0.4, 0.6, 1, 1.4, 1.8, 2.5, 2.8, 3.2, 4];
   if(tick_iter % 5 === 0) {
     totalSample += '\n ============'+ moment().format('MMMM Do YYYY, hh:mm:ss a') +'============= \n';
     for (var i = 0; i < temperatures.length; i++) {
