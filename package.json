@@ -19,6 +19,7 @@
   "dependencies": {
     "fs": "0.0.2",
     "moment": "^2.10.6",
-    "natural": "^0.2.1"
+    "natural": "^0.2.1",
+    "nlp_compromise": "^1.1.4"
   }
 }

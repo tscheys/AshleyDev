@@ -6,7 +6,7 @@ var natural = require('natural');
 var moment = require('moment');
 
 // Model parameters 
-var sample_softmax_temperature = Math.pow(10, 0.5); // how peaky model predictions should be
+var sample_softmax_temperature = 1; // how peaky model predictions should be
 // var sample_softmax_temperature = 1.0;
 var generator = 'lstm'; // can also be rnn
 var max_chars_gen = 100; // max length of generated sentences
@@ -16,7 +16,7 @@ var output_size = -1;
 var letter_size = 5;
 var hidden_layers = 3;
 // TODO: change this variables to one number
-var hidden_sizes = [64,64,64]; // list of sizes of hidden layers
+var hidden_sizes = [20, 20]; // list of sizes of hidden layers
 var regc = 0.000001; // L2 regularization strength
 var learning_rate = 0.01; // learning rate
 var clipval = 5.0;
@@ -26,7 +26,7 @@ var total = '';
 var totalSample = '';
 
 //file sources
-var trainingPath = '/shakespeare.txt';
+var trainingPath = '/hamlet.txt';
 var modelPath = '/output' + trainingPath.slice(0, trainingPath.length-4) + 'model.txt';
 var samplePath = '/output' + trainingPath.slice(0, trainingPath.length-4) + 'samples.txt';
 var argmaxPath = '/output' + trainingPath.slice(0, trainingPath.length-4) + 'argmax.txt';
@@ -43,36 +43,42 @@ var model = {};
 var tokenizer = new natural.RegexpTokenizer({pattern: /( |\w+|\!|\'|\"|\n)/i});
 
 var initVocab = function(sents, count_threshold) {
-  // go over all words and keep track of all unique ones seen
-  // join all the sentences
-  // var fullText = sents.join(''); 
-  var tokens = tokenizer.tokenize(sents);
-  // count up all words
-  var wordCount = {};
-  // special chars, also considered as words 
-  for(var i=0,n=tokens.length;i<n;i++) {
-    var txti = tokens[i];
-    if(txti in wordCount) { wordCount[txti] += 1; } 
-    else { wordCount[txti] = 1; }
+  // go over all characters and keep track of all unique ones seen
+  // var txt = sents.join(''); // concat all
+  var txt = sents;
+  // count up all characters
+  var d = {};
+  for(var i=0,n=txt.length;i<n;i++) {
+    var txti = txt[i];
+    if(txti in d) { d[txti] += 1; }
+    else { d[txti] = 1; }
   }
+
   // filter by count threshold and create pointers
+  letterToIndex = {};
+  indexToLetter = {};
+  vocab = [];
   // NOTE: start at one because we will have START and END tokens!
   // that is, START token will be index 0 in model letter vectors
   // and END token will be index 0 in the next character softmax
-  var q = 1; 
-  for(word in wordCount) {
-    if(wordCount[word] >= count_threshold) {
-      // add character to vocab
-      letterToIndex[word] = q;
-      indexToLetter[q] = word;
-      vocab.push(word);
-      q++;
+  var q = 1;
+  for(var ch in d) {
+    if(d.hasOwnProperty(ch)) {
+      if(d[ch] >= count_threshold) {
+        // add character to vocab
+        letterToIndex[ch] = q;
+        indexToLetter[q] = ch;
+        vocab.push(ch);
+        q++;
+      }
     }
   }
+
+  // globals written: indexToLetter, letterToIndex, vocab (list), and:
   input_size = vocab.length + 1;
   output_size = vocab.length + 1;
   epoch_size = sents.length;
-}
+};
 
 var utilAddToModel = function(modelto, modelfrom) {
   for(var k in modelfrom) {
@@ -122,8 +128,8 @@ var reinit = function() {
       loadModel(model);
       setInterval(tick, 1000);
     }
-  }); 
-}
+  });
+};
 
 var saveModel = function() {
   var out = {};
@@ -205,11 +211,11 @@ var predictSentence = function(model, samplei, temperature) {
   var s = '';
   var prev = {};
   while(true) {
-    var tokens = tokenizer.tokenize(s);
+    // var tokens = tokenizer.tokenize(s);
     // RNN tick
-    console.log(s);
-    console.log(tokens);
-    var ix = s.length === 0 ? 0 : letterToIndex[tokens[tokens.length - 1]];
+    // console.log(s);
+    // console.log(tokens);
+    var ix = s.length === 0 ? 0 : letterToIndex[s[s.length-1]];    
     var lh = forwardIndex(G, model, ix, prev);
     prev = lh;
 
@@ -229,14 +235,14 @@ var predictSentence = function(model, samplei, temperature) {
     if(samplei) {
       var ix = R.samplei(probs.w);
     } else {
-      var ix = R.maxi(probs.w);  
+      var ix = R.maxi(probs.w);
     }
     
     if(ix === 0) break; // END token predicted, break out
     if(s.length > max_chars_gen) { break; } // something is wrong
     var letter = indexToLetter[ix];
     // console.log('added', letter, 'endadded');
-    s += letter + ' ';
+    s += letter;
   }
   return s;
 };
@@ -246,17 +252,17 @@ var costfun = function(model, sent) {
   // calculates the loss. Also returns the Graph
   // object which can be used to do backprop
   // adjust constfunc for words 
-  var tokens = tokenizer.tokenize(sent);
+  // var tokens = tokenizer.tokenize(sent);
   // console.log(sent);
-  var n = tokens.length;
+  var n = sent.length;
   var G = new R.Graph();
   var log2ppl = 0.0;
   var cost = 0.0;
   var prev = {};
   for(var i=-1; i<n; i++) {
     // start and end tokens are zeros
-    var ix_source = i === -1 ? 0 : letterToIndex[tokens[i]]; // first step: start with START token
-    var ix_target = i === n-1 ? 0 : letterToIndex[tokens[i+1]]; // last step: end with END token
+    var ix_source = i === -1 ? 0 : letterToIndex[sent[i]]; // first step: start with START token
+    var ix_target = i === n-1 ? 0 : letterToIndex[sent[i+1]]; // last step: end with END token
     lh = forwardIndex(G, model, ix_source, prev);
     prev = lh;
 

@@ -1,0 +1,42 @@
+
+ ============October 22nd 2015, 12:19:15 pm============= 
+argmax PERPLEXITY: 45.43
+O                                                                                                     
+ ============October 22nd 2015, 12:19:29 pm============= 
+argmax PERPLEXITY: 41.36
+A n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n 
+ ============October 22nd 2015, 12:19:42 pm============= 
+argmax PERPLEXITY: 46.66
+T                                                                                                     
+ ============October 22nd 2015, 12:19:56 pm============= 
+argmax PERPLEXITY: 1226.24
+
+ 
+ ============October 22nd 2015, 12:20:09 pm============= 
+argmax PERPLEXITY: 33.00
+
+ h e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e 
+ ============October 22nd 2015, 12:20:22 pm============= 
+argmax PERPLEXITY: Infinity
+W 
+ ============October 22nd 2015, 12:20:36 pm============= 
+argmax PERPLEXITY: 28.30
+W h                                                                                                   
+ ============October 22nd 2015, 12:20:51 pm============= 
+argmax PERPLEXITY: 24.82
+A h                                                                                                   
+ ============October 22nd 2015, 12:21:05 pm============= 
+argmax PERPLEXITY: 28.32
+T h                                                                                                   
+ ============October 22nd 2015, 12:21:19 pm============= 
+argmax PERPLEXITY: 47.85
+T T t                                                                                                 
+ ============October 22nd 2015, 12:21:32 pm============= 
+argmax PERPLEXITY: 515.61
+T h                                                                                                   
+ ============October 22nd 2015, 12:21:47 pm============= 
+argmax PERPLEXITY: 22.35
+T h e                                                                                                 
+ ============October 22nd 2015, 12:22:00 pm============= 
+argmax PERPLEXITY: Infinity
+A n e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e 
