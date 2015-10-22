@@ -311,12 +311,16 @@ var tick = function() {
 
   // evaluate now and then
   tick_iter += 1;
+  var temperatures = [0.2, 0.4, 0.6, 1, 1.4, 1.8, 2.5, 2.8, 3.2, 4];
   if(tick_iter % 5 === 0) {
     totalSample += '\n ============'+ moment().format('MMMM Do YYYY, hh:mm:ss a') +'============= \n';
-    for(var q=0;q<5;q++) {
-      var pred2 = predictSentence(model, true, sample_softmax_temperature);
-      totalSample += pred2;
-      fs.writeFileSync(__dirname + samplePath, totalSample, 'utf8');
+    for (var i = 0; i < temperatures.length; i++) {
+      var pred2 = '\n\n' + 'xxxxxxxxxxxxx' + temperatures[i] + 'xxxxxxxxxxxxxxxx' + '\n';
+      for(var q=0;q<5;q++) {
+        pred2 += predictSentence(model, true, temperatures[i]);
+        totalSample += pred2;
+      }
+      fs.writeFileSync(__dirname + '/output/samples.txt', totalSample, 'utf8');
     }
   }
 
