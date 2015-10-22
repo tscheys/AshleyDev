@@ -326,7 +326,7 @@ var tick = function() {
         pred2 += predictSentence(model, true, temperatures[i]);
         totalSample += pred2;
       }
-      fs.writeFileSync(__dirname + '/output/samples.txt', totalSample, 'utf8');
+      fs.writeFileSync(__dirname + samplePath, totalSample, 'utf8');
     }
   }
 
