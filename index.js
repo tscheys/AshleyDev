@@ -13,10 +13,10 @@ var max_chars_gen = 100; // max length of generated sentences
 var epoch_size = -1;
 var input_size = -1;
 var output_size = -1;
-var letter_size = 5;
+var letter_size = parseInt(process.argv[4]);
 var hidden_layers = 3;
 // TODO: change this variables to one number
-var hidden_sizes = [20, 20]; // list of sizes of hidden layers
+var hidden_sizes = [parseInt(process.argv[3]), parseInt(process.argv[3])]; // list of sizes of hidden layers
 var regc = 0.000001; // L2 regularization strength
 var learning_rate = 0.01; // learning rate
 var clipval = 5.0;
@@ -25,9 +25,10 @@ var temperatures = [0.2, 0.4, 0.6, 1, 1.4, 1.8, 2.5, 2.8, 3.2, 4];
 var total = ''; 
 var totalSample = '';
 
-process.argv.forEach(function(val, index, array) {
-  console.log(index + ': ' + val);
-});
+if(!!process.argv[4] || !!process.argv[3]) {
+  console.log('ERROR: you did not define nodes and letter size for this instance.');
+  return;
+}
 
 //file sources
 var trainingPath = process.argv[2];
