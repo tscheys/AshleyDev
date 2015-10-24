@@ -31,8 +31,12 @@ process.argv.forEach(function(val, index, array) {
 
 //file sources
 var trainingPath = process.argv[2];
-if(!fs.lstatSync(__dirname + '/output/' + trainingPath).isDirectory()) {
+//creating directory when doesn't exists
+try {
+  console.log('trying');
   fs.mkdirSync(__dirname + '/output/' + trainingPath);
+} catch (e) {
+  if ( e.code != 'EEXIST' ) throw e;
 }
 var modelPath = '/output/' + trainingPath + '/' + trainingPath + 'model.txt';
 var samplePath = '/output/' + trainingPath + '/' + trainingPath + 'samples.txt';
