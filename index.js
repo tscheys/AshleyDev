@@ -33,7 +33,6 @@ process.argv.forEach(function(val, index, array) {
 var trainingPath = process.argv[2];
 //creating directory when doesn't exists
 try {
-  console.log('trying');
   fs.mkdirSync(__dirname + '/output/' + trainingPath);
 } catch (e) {
   if ( e.code != 'EEXIST' ) throw e;
