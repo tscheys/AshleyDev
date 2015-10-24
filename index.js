@@ -25,7 +25,7 @@ var temperatures = [0.2, 0.4, 0.6, 1, 1.4, 1.8, 2.5, 2.8, 3.2, 4];
 var total = ''; 
 var totalSample = '';
 
-if(!!process.argv[4] || !!process.argv[3]) {
+if(!process.argv[4] || !process.argv[3]) {
   console.log('ERROR: you did not define nodes and letter size for this instance.');
   return;
 }
