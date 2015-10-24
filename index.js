@@ -25,11 +25,18 @@ var temperatures = [0.2, 0.4, 0.6, 1, 1.4, 1.8, 2.5, 2.8, 3.2, 4];
 var total = ''; 
 var totalSample = '';
 
+process.argv.forEach(function(val, index, array) {
+  console.log(index + ': ' + val);
+});
+
 //file sources
-var trainingPath = '/hamlet.txt';
-var modelPath = '/output' + trainingPath.slice(0, trainingPath.length-4) + 'model.txt';
-var samplePath = '/output' + trainingPath.slice(0, trainingPath.length-4) + 'samples.txt';
-var argmaxPath = '/output' + trainingPath.slice(0, trainingPath.length-4) + 'argmax.txt';
+var trainingPath = process.argv[2];
+if(!fs.lstatSync(__dirname + '/output/' + trainingPath).isDirectory()) {
+  fs.mkdirSync(__dirname + '/output/' + trainingPath);
+}
+var modelPath = '/output/' + trainingPath + '/' + trainingPath + 'model.txt';
+var samplePath = '/output/' + trainingPath + '/' + trainingPath + 'samples.txt';
+var argmaxPath = '/output/' + trainingPath + '/' + trainingPath + 'argmax.txt';
 
 // Global variables
 var letterToIndex = {};
@@ -113,7 +120,7 @@ var reinit = function() {
   ppl_list = [];
   tick_iter = 0;
   // read in txt file 
-  trainingSet = fs.readFileSync(__dirname + trainingPath, 'utf8');
+  trainingSet = fs.readFileSync(__dirname + '/textFiles/' + trainingPath + '.txt', 'utf8');
 
   // check if there is a jsonfile 
   fs.stat(__dirname + modelPath, function(err, result) {
@@ -326,8 +333,8 @@ var tick = function() {
         pred2 += predictSentence(model, true, temperatures[i]);
         totalSample += pred2;
       }
-      fs.writeFileSync(__dirname + samplePath, totalSample, 'utf8');
     }
+    fs.writeFileSync(__dirname + samplePath, totalSample, 'utf8');
   }
 
   if(tick_iter % 10 === 0) {
