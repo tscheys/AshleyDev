@@ -1,0 +1,1728 @@
+
+ ============November 6th 2015, 07:30:46 am============= 
+argmax PERPLEXITY: 5.18
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:31:54 am============= 
+argmax PERPLEXITY: 5.54
+                                                                                                     
+ ============November 6th 2015, 07:32:59 am============= 
+argmax PERPLEXITY: 6.94
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:34:01 am============= 
+argmax PERPLEXITY: 5.66
+  And the she the she the she the she the she the she the she the she the she the she the she the she
+ ============November 6th 2015, 07:35:01 am============= 
+argmax PERPLEXITY: Infinity
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:36:02 am============= 
+argmax PERPLEXITY: 8.21
+    And the she the she the she the she the she the she the she the she she the she she the she she s
+ ============November 6th 2015, 07:37:09 am============= 
+argmax PERPLEXITY: 7.80
+  And the she the she the she the she the she the she the she the she the she the she the she the she
+ ============November 6th 2015, 07:38:23 am============= 
+argmax PERPLEXITY: 4.71
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:39:37 am============= 
+argmax PERPLEXITY: Infinity
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:40:59 am============= 
+argmax PERPLEXITY: 4.01
+                                                                                                     
+ ============November 6th 2015, 07:42:26 am============= 
+argmax PERPLEXITY: 14.41
+                                                                                                     
+ ============November 6th 2015, 07:43:50 am============= 
+argmax PERPLEXITY: 9.37
+                                                                                                     
+ ============November 6th 2015, 07:45:07 am============= 
+argmax PERPLEXITY: 6.11
+                                                                                                     
+ ============November 6th 2015, 07:46:25 am============= 
+argmax PERPLEXITY: 12.06
+                                                                                                     
+ ============November 6th 2015, 07:47:42 am============= 
+argmax PERPLEXITY: 8.67
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:49:06 am============= 
+argmax PERPLEXITY: 8.57
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:50:14 am============= 
+argmax PERPLEXITY: 8.19
+  And the she the she the she the she the she the she the she the she the she the she the she the she
+ ============November 6th 2015, 07:51:38 am============= 
+argmax PERPLEXITY: 4.18
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:53:01 am============= 
+argmax PERPLEXITY: 4.27
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:54:28 am============= 
+argmax PERPLEXITY: 5.66
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:55:46 am============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 07:57:10 am============= 
+argmax PERPLEXITY: 4.18
+                                                                                                     
+ ============November 6th 2015, 07:58:27 am============= 
+argmax PERPLEXITY: 5.14
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 07:59:30 am============= 
+argmax PERPLEXITY: 129.80
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 08:00:29 am============= 
+argmax PERPLEXITY: 5.10
+    The she the some the some the some the she the she the she the she the she the she the she the sh
+ ============November 6th 2015, 08:01:34 am============= 
+argmax PERPLEXITY: 8.13
+    The she the she the she the she the she the she the she the she the she the she the she the she t
+ ============November 6th 2015, 08:02:28 am============= 
+argmax PERPLEXITY: 5.28
+  And the she the she the she the she the she the she the she the she the start
+
+ ============November 6th 2015, 08:03:31 am============= 
+argmax PERPLEXITY: 7.45
+  And the the strange the starth the starth the starth the start
+
+ ============November 6th 2015, 08:04:29 am============= 
+argmax PERPLEXITY: 6.59
+  And the she the she the she the she the she the she the she the shall
+
+ ============November 6th 2015, 08:05:32 am============= 
+argmax PERPLEXITY: 5.71
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 08:06:33 am============= 
+argmax PERPLEXITY: 17.27
+                                                                                                     
+ ============November 6th 2015, 08:07:37 am============= 
+argmax PERPLEXITY: Infinity
+    The she the she the she the she the she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:08:40 am============= 
+argmax PERPLEXITY: 6.19
+    The she the she the she the she the she the she the she so so so so so so so so so so so so so so
+ ============November 6th 2015, 08:09:53 am============= 
+argmax PERPLEXITY: 7.35
+    The she the she the she so so so so so so so so so so so so so so so so so so so so so so so so s
+ ============November 6th 2015, 08:11:07 am============= 
+argmax PERPLEXITY: 5.24
+  The greas the she the she some the she some the she some the she some the she some
+
+ ============November 6th 2015, 08:12:19 am============= 
+argmax PERPLEXITY: 6.93
+  And the she the she the she the she the she she she she she she she she she she she she she she she
+ ============November 6th 2015, 08:13:38 am============= 
+argmax PERPLEXITY: 7.84
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 08:14:58 am============= 
+argmax PERPLEXITY: 5.75
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 08:16:12 am============= 
+argmax PERPLEXITY: 9.74
+    And the she the she the she the she the she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:17:24 am============= 
+argmax PERPLEXITY: 6.44
+    The deather the she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:18:52 am============= 
+argmax PERPLEXITY: 6.03
+    The grees and the she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 08:20:03 am============= 
+argmax PERPLEXITY: 5.59
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:21:15 am============= 
+argmax PERPLEXITY: 6.03
+    And she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:22:29 am============= 
+argmax PERPLEXITY: 6.81
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:23:46 am============= 
+argmax PERPLEXITY: 6.60
+    And she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:24:57 am============= 
+argmax PERPLEXITY: 7.44
+                                                                                                     
+ ============November 6th 2015, 08:26:13 am============= 
+argmax PERPLEXITY: 6.02
+  And the she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 08:27:31 am============= 
+argmax PERPLEXITY: 6.77
+    And the she she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:28:54 am============= 
+argmax PERPLEXITY: 5.10
+    And the she the she the she she the she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:30:10 am============= 
+argmax PERPLEXITY: 6.35
+                                                                                                     
+ ============November 6th 2015, 08:31:33 am============= 
+argmax PERPLEXITY: 5.87
+                                                                                                     
+ ============November 6th 2015, 08:32:54 am============= 
+argmax PERPLEXITY: 6.32
+                                                                                                     
+ ============November 6th 2015, 08:34:16 am============= 
+argmax PERPLEXITY: 5.88
+                                                                                                     
+ ============November 6th 2015, 08:35:31 am============= 
+argmax PERPLEXITY: 6.31
+                                                                                                     
+ ============November 6th 2015, 08:36:51 am============= 
+argmax PERPLEXITY: 5.04
+                                                                                                     
+ ============November 6th 2015, 08:38:12 am============= 
+argmax PERPLEXITY: 7.40
+                                                                                                     
+ ============November 6th 2015, 08:39:28 am============= 
+argmax PERPLEXITY: 6.28
+                                                                                                     
+ ============November 6th 2015, 08:40:33 am============= 
+argmax PERPLEXITY: 8.00
+                                                                                                     
+ ============November 6th 2015, 08:41:39 am============= 
+argmax PERPLEXITY: 4.70
+                                                                                                     
+ ============November 6th 2015, 08:42:52 am============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 08:43:59 am============= 
+argmax PERPLEXITY: 7.32
+                                                                                                     
+ ============November 6th 2015, 08:45:03 am============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 08:46:07 am============= 
+argmax PERPLEXITY: 4.84
+                                                                                                     
+ ============November 6th 2015, 08:47:16 am============= 
+argmax PERPLEXITY: 5.37
+                                                                                                     
+ ============November 6th 2015, 08:48:32 am============= 
+argmax PERPLEXITY: 7.30
+                                                                                                     
+ ============November 6th 2015, 08:50:03 am============= 
+argmax PERPLEXITY: 5.78
+                                                                                                     
+ ============November 6th 2015, 08:51:28 am============= 
+argmax PERPLEXITY: 7.90
+                                                                                                     
+ ============November 6th 2015, 08:52:55 am============= 
+argmax PERPLEXITY: 7.06
+                                                                                                     
+ ============November 6th 2015, 08:54:15 am============= 
+argmax PERPLEXITY: 5.75
+    And she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 08:55:31 am============= 
+argmax PERPLEXITY: 5.59
+                                                                                                     
+ ============November 6th 2015, 08:56:51 am============= 
+argmax PERPLEXITY: Infinity
+    And she she share the share the share the share a share a share
+
+ ============November 6th 2015, 08:58:11 am============= 
+argmax PERPLEXITY: Infinity
+    And so she she the shall the shall the shall the shall
+
+ ============November 6th 2015, 08:59:34 am============= 
+argmax PERPLEXITY: 5.84
+    And the she so so so so so so so so so so so so so so so so so so so so so so so so so so so so s
+ ============November 6th 2015, 09:00:51 am============= 
+argmax PERPLEXITY: 7.57
+  And the she the she so so so so so so so so so so so so so so so so so so so so so so so so so so s
+ ============November 6th 2015, 09:02:12 am============= 
+argmax PERPLEXITY: 9.21
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 09:03:40 am============= 
+argmax PERPLEXITY: 6.44
+    The greas the greas the greast the greast the greast the greast the stray
+
+ ============November 6th 2015, 09:05:04 am============= 
+argmax PERPLEXITY: 19.20
+    Then then then the strangent the strangent the strangent,
+
+ ============November 6th 2015, 09:06:25 am============= 
+argmax PERPLEXITY: 6.50
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 09:07:35 am============= 
+argmax PERPLEXITY: 8.91
+                                                                                                     
+ ============November 6th 2015, 09:09:03 am============= 
+argmax PERPLEXITY: 4.87
+                                                                                                     
+ ============November 6th 2015, 09:10:22 am============= 
+argmax PERPLEXITY: 8.01
+                                                                                                     
+ ============November 6th 2015, 09:11:40 am============= 
+argmax PERPLEXITY: 5.58
+    The more the stray the stray the startess the startess the startes
+
+ ============November 6th 2015, 09:12:55 am============= 
+argmax PERPLEXITY: 3.97
+    The many the starl the starl the starl the starl the starl the starl
+
+ ============November 6th 2015, 09:14:14 am============= 
+argmax PERPLEXITY: 6.07
+    And the she the manst the she the she the she the she the she the she the she the she the she the
+ ============November 6th 2015, 09:15:34 am============= 
+argmax PERPLEXITY: 5.34
+    And the mane, and the mane, and the mane
+
+ ============November 6th 2015, 09:16:53 am============= 
+argmax PERPLEXITY: 4.77
+    And the maning the maning the maning the maning
+
+ ============November 6th 2015, 09:18:07 am============= 
+argmax PERPLEXITY: 7.17
+    And the maning the many the stray the starth the starth
+
+ ============November 6th 2015, 09:19:18 am============= 
+argmax PERPLEXITY: 4.85
+    And the strand the stars the stars the stars the stars
+
+ ============November 6th 2015, 09:20:22 am============= 
+argmax PERPLEXITY: 5.01
+    And the stran the strand the strand the strand the strand the stars
+
+ ============November 6th 2015, 09:21:16 am============= 
+argmax PERPLEXITY: 8.85
+    And the still the stars the stars the stars the stars
+
+ ============November 6th 2015, 09:22:17 am============= 
+argmax PERPLEXITY: 4.99
+    And the still the starth the starth the starth the starth,
+
+ ============November 6th 2015, 09:23:09 am============= 
+argmax PERPLEXITY: 4.61
+    And the she the she the she the she the she the stars
+
+ ============November 6th 2015, 09:24:19 am============= 
+argmax PERPLEXITY: 9.57
+    And the mane, the mane, and the strain,
+
+ ============November 6th 2015, 09:25:18 am============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 09:26:23 am============= 
+argmax PERPLEXITY: 5.37
+                                                                                                     
+ ============November 6th 2015, 09:27:26 am============= 
+argmax PERPLEXITY: Infinity
+    And the stray the stray the stars the stars the stars
+
+ ============November 6th 2015, 09:28:37 am============= 
+argmax PERPLEXITY: 7.63
+    And the stars the stars the stars the stars the stars the stars
+
+ ============November 6th 2015, 09:29:48 am============= 
+argmax PERPLEXITY: 7.44
+    And the strangere the more the stars the stars the stars the stars the stars
+
+ ============November 6th 2015, 09:31:04 am============= 
+argmax PERPLEXITY: 8.96
+  And the starth the starth the starth the starth the starth the start
+
+ ============November 6th 2015, 09:32:27 am============= 
+argmax PERPLEXITY: 5.69
+  And the more the more the starth the starth the starth the starth,
+
+ ============November 6th 2015, 09:33:42 am============= 
+argmax PERPLEXITY: 10.44
+    And the stray the starm'd the stars the stars the stars the stars
+
+ ============November 6th 2015, 09:34:59 am============= 
+argmax PERPLEXITY: 4.69
+    And the strain the strain the stars the stars the stars
+
+ ============November 6th 2015, 09:36:11 am============= 
+argmax PERPLEXITY: 10.52
+    And the starth the starth the startes the startes,
+
+ ============November 6th 2015, 09:37:23 am============= 
+argmax PERPLEXITY: Infinity
+    And the she the she the she the she the she the she the she the she the she the start
+
+ ============November 6th 2015, 09:38:44 am============= 
+argmax PERPLEXITY: 8.82
+    And the more the more the more the she the she the start
+
+ ============November 6th 2015, 09:39:53 am============= 
+argmax PERPLEXITY: 5.94
+    The more the more the more the she her she her she her she her she her she her she her she her sh
+ ============November 6th 2015, 09:41:03 am============= 
+argmax PERPLEXITY: 6.82
+    And the more the more the more the more the more
+
+ ============November 6th 2015, 09:42:25 am============= 
+argmax PERPLEXITY: 5.05
+    And the more the more the more the more the more the more
+
+ ============November 6th 2015, 09:43:45 am============= 
+argmax PERPLEXITY: 6.25
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 09:45:04 am============= 
+argmax PERPLEXITY: 5.89
+    And the she the she the she the she the she so the she so the she so the she so the she so the sh
+ ============November 6th 2015, 09:46:28 am============= 
+argmax PERPLEXITY: 7.98
+    And the some the some the some the some the some the so the so the so the so the so the so the so
+ ============November 6th 2015, 09:47:41 am============= 
+argmax PERPLEXITY: 3.87
+  And the she the streas the start the start the start
+
+ ============November 6th 2015, 09:48:46 am============= 
+argmax PERPLEXITY: 5.05
+  And the strange the streas the streas the streas the stars
+
+ ============November 6th 2015, 09:49:45 am============= 
+argmax PERPLEXITY: 6.09
+  And the she the she the she the she the she the she the she the she the she the she the she the she
+ ============November 6th 2015, 09:51:06 am============= 
+argmax PERPLEXITY: 9.35
+  And the she she the she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 09:52:18 am============= 
+argmax PERPLEXITY: 8.29
+  And the strange the strange the stars the stars,
+
+ ============November 6th 2015, 09:53:42 am============= 
+argmax PERPLEXITY: 3.47
+    And the strange the strand the start the starter the stars the stars
+
+ ============November 6th 2015, 09:55:06 am============= 
+argmax PERPLEXITY: 6.03
+    And the strange the strangering the strath the strath the strath the strath
+
+ ============November 6th 2015, 09:56:32 am============= 
+argmax PERPLEXITY: 6.51
+    And the start the start the stars the stars the stars,
+
+ ============November 6th 2015, 09:57:53 am============= 
+argmax PERPLEXITY: 7.05
+    And the strain the strain the strain the stare the stare
+
+ ============November 6th 2015, 09:59:03 am============= 
+argmax PERPLEXITY: 9.83
+    And the she the she the she the she streas the starl
+
+ ============November 6th 2015, 10:00:09 am============= 
+argmax PERPLEXITY: 4.93
+                                                                                                     
+ ============November 6th 2015, 10:01:17 am============= 
+argmax PERPLEXITY: 5.81
+    And the shal the share the share a share and some the stars
+
+ ============November 6th 2015, 10:02:19 am============= 
+argmax PERPLEXITY: 5.07
+    And the she the she the she she she she stars
+
+ ============November 6th 2015, 10:03:27 am============= 
+argmax PERPLEXITY: 6.84
+  And the she the she the she the she the share a share
+
+ ============November 6th 2015, 10:04:32 am============= 
+argmax PERPLEXITY: 4.18
+    And the she the shall the shall the shall the shall the shall
+
+ ============November 6th 2015, 10:05:35 am============= 
+argmax PERPLEXITY: 5.80
+    And the shall the shall the shall the shall the shall
+
+ ============November 6th 2015, 10:06:44 am============= 
+argmax PERPLEXITY: Infinity
+    And the she the she the she she the she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 10:07:41 am============= 
+argmax PERPLEXITY: 5.74
+    And the star the stars the stars the stars the stars the stars
+
+ ============November 6th 2015, 10:08:43 am============= 
+argmax PERPLEXITY: 5.40
+    And she she she she she she she she she she she she she she she she stars
+
+ ============November 6th 2015, 10:10:00 am============= 
+argmax PERPLEXITY: 6.67
+  And the she she the she the stars the stars the stars
+
+ ============November 6th 2015, 10:11:21 am============= 
+argmax PERPLEXITY: 6.68
+  And the shand the so the so the stars the stars the stars
+
+ ============November 6th 2015, 10:12:40 am============= 
+argmax PERPLEXITY: 5.76
+    And so so the so the so the so the so the so the so the so the so the so the so the stars
+
+ ============November 6th 2015, 10:13:56 am============= 
+argmax PERPLEXITY: 5.33
+    The greet the sorere the soon the soon the soon the soon the soon
+
+ ============November 6th 2015, 10:15:11 am============= 
+argmax PERPLEXITY: 9.75
+    The greet the more the more the more the more the stall
+
+ ============November 6th 2015, 10:16:23 am============= 
+argmax PERPLEXITY: 4.67
+                                                                                                     
+ ============November 6th 2015, 10:17:38 am============= 
+argmax PERPLEXITY: 7.18
+    And the greet the greet the greet the greet the more
+
+ ============November 6th 2015, 10:18:59 am============= 
+argmax PERPLEXITY: 6.91
+    And the she the greet the she she the she she she she she she she she she she she she she she she
+ ============November 6th 2015, 10:20:18 am============= 
+argmax PERPLEXITY: 5.39
+    And the she some the she some the she some some some she she she she she she she she she she she 
+ ============November 6th 2015, 10:21:34 am============= 
+argmax PERPLEXITY: 6.93
+    And the more the more the more the more a she she she she she she she she she she she she she she
+ ============November 6th 2015, 10:22:51 am============= 
+argmax PERPLEXITY: 5.71
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 10:24:15 am============= 
+argmax PERPLEXITY: Infinity
+    And the she she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 10:25:32 am============= 
+argmax PERPLEXITY: 186.06
+                                                                                                     
+ ============November 6th 2015, 10:26:48 am============= 
+argmax PERPLEXITY: 3.24
+                                                                                                     
+ ============November 6th 2015, 10:28:07 am============= 
+argmax PERPLEXITY: Infinity
+    And the she the she the she the she the she the stars
+
+ ============November 6th 2015, 10:29:24 am============= 
+argmax PERPLEXITY: 6.65
+    And the she the she the she the she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 10:30:32 am============= 
+argmax PERPLEXITY: 7.86
+    And the she she she the she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 10:31:39 am============= 
+argmax PERPLEXITY: 5.63
+    And the she she she she she she she she she she she she she she she she stars
+
+ ============November 6th 2015, 10:33:05 am============= 
+argmax PERPLEXITY: 7.30
+                                                                                                     
+ ============November 6th 2015, 10:34:28 am============= 
+argmax PERPLEXITY: 5.81
+    And the she she she she she she she she she she she she she she she she she she she she stars
+
+ ============November 6th 2015, 10:36:04 am============= 
+argmax PERPLEXITY: 6.52
+    And the greas the greas the manst the man
+
+ ============November 6th 2015, 10:37:23 am============= 
+argmax PERPLEXITY: 4.85
+    The more the streas the streas the streas the streas the streas the streas
+
+ ============November 6th 2015, 10:38:43 am============= 
+argmax PERPLEXITY: 5.30
+                                                                                                     
+ ============November 6th 2015, 10:39:56 am============= 
+argmax PERPLEXITY: 8.66
+    The she the she the she the she the she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 10:41:09 am============= 
+argmax PERPLEXITY: 5.73
+    The she the she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 10:42:17 am============= 
+argmax PERPLEXITY: 6.23
+    And the she the she the she the song the sone
+
+ ============November 6th 2015, 10:43:29 am============= 
+argmax PERPLEXITY: 6.38
+  And the she some the she some the she some the she some the she some the she some
+
+ ============November 6th 2015, 10:44:38 am============= 
+argmax PERPLEXITY: Infinity
+  And the she some the she some the she some the she some the she some the she some
+
+ ============November 6th 2015, 10:46:03 am============= 
+argmax PERPLEXITY: 6.47
+  And the she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 10:47:09 am============= 
+argmax PERPLEXITY: 6.27
+  And the she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 10:48:31 am============= 
+argmax PERPLEXITY: 6.03
+  And the she the she the she the she the she the she she she she she she she she she she she she she
+ ============November 6th 2015, 10:49:49 am============= 
+argmax PERPLEXITY: 7.78
+  And the she the she the she the she the she the she the she the she the she the she the she the sha
+ ============November 6th 2015, 10:51:07 am============= 
+argmax PERPLEXITY: 10.53
+    And the she she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 10:52:33 am============= 
+argmax PERPLEXITY: 7.32
+    And the she some the she some the she so she so she so she so she so she so she so she so she so 
+ ============November 6th 2015, 10:53:41 am============= 
+argmax PERPLEXITY: 5.09
+    And the shance the shall the shall the shall,
+
+ ============November 6th 2015, 10:54:57 am============= 
+argmax PERPLEXITY: 5.49
+    The she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 10:56:20 am============= 
+argmax PERPLEXITY: 65.65
+    The she the she the she she the she she she she she she she strange
+
+ ============November 6th 2015, 10:57:33 am============= 
+argmax PERPLEXITY: 2.82
+    The morn the some the some the some the some the some the stars
+
+ ============November 6th 2015, 10:58:48 am============= 
+argmax PERPLEXITY: 5.23
+    The she the some the some the some the some the some the sormell
+
+ ============November 6th 2015, 11:00:16 am============= 
+argmax PERPLEXITY: 5.74
+    The she the she the shall the shall the shall the shall the shall
+
+ ============November 6th 2015, 11:01:38 am============= 
+argmax PERPLEXITY: 8.77
+    And the shance the shance the shall the shall the shall
+
+ ============November 6th 2015, 11:03:00 am============= 
+argmax PERPLEXITY: 14.06
+    And the starth the starth the starth the starth the starth
+
+ ============November 6th 2015, 11:04:17 am============= 
+argmax PERPLEXITY: 6.50
+    And the starth the starth the stars the stars the stars the stars
+
+ ============November 6th 2015, 11:05:46 am============= 
+argmax PERPLEXITY: 6.75
+                                                                                                     
+ ============November 6th 2015, 11:06:58 am============= 
+argmax PERPLEXITY: 6.09
+    And the she the shan the shall the shall the shall
+
+ ============November 6th 2015, 11:08:13 am============= 
+argmax PERPLEXITY: 5.04
+    And the she the she the she the shall
+
+ ============November 6th 2015, 11:09:21 am============= 
+argmax PERPLEXITY: 8.59
+    Where the she shall the shang the shand the shand
+
+ ============November 6th 2015, 11:10:35 am============= 
+argmax PERPLEXITY: Infinity
+    Where the she sound the she soon the stars
+
+ ============November 6th 2015, 11:11:47 am============= 
+argmax PERPLEXITY: 7.26
+    And the soon and the soon and soon and soon,
+
+ ============November 6th 2015, 11:13:06 am============= 
+argmax PERPLEXITY: 8.89
+    And the soon the soon the soon the soon the stars
+
+ ============November 6th 2015, 11:14:22 am============= 
+argmax PERPLEXITY: 6.64
+  And the she heart the she heart the she song the she song the she song
+
+ ============November 6th 2015, 11:15:40 am============= 
+argmax PERPLEXITY: 5.49
+                                                                                                     
+ ============November 6th 2015, 11:16:50 am============= 
+argmax PERPLEXITY: 7.52
+                                                                                                     
+ ============November 6th 2015, 11:18:04 am============= 
+argmax PERPLEXITY: 8.26
+                                                                                                     
+ ============November 6th 2015, 11:19:14 am============= 
+argmax PERPLEXITY: 9.84
+                                                                                                     
+ ============November 6th 2015, 11:20:21 am============= 
+argmax PERPLEXITY: 5.27
+                                                                                                     
+ ============November 6th 2015, 11:21:26 am============= 
+argmax PERPLEXITY: Infinity
+    And the she heart the she heart the she heard,
+
+ ============November 6th 2015, 11:22:27 am============= 
+argmax PERPLEXITY: 7.08
+                                                                                                     
+ ============November 6th 2015, 11:23:24 am============= 
+argmax PERPLEXITY: 6.78
+    And the she her the she her the she heart,
+
+ ============November 6th 2015, 11:24:26 am============= 
+argmax PERPLEXITY: 8.46
+    And the she her the she her the she heard,
+
+ ============November 6th 2015, 11:25:29 am============= 
+argmax PERPLEXITY: 7.50
+  The greas the she her the she heard the she heard
+
+ ============November 6th 2015, 11:26:38 am============= 
+argmax PERPLEXITY: 5.35
+  And the she the she the she the she the she the she the she the she the starl
+
+ ============November 6th 2015, 11:27:41 am============= 
+argmax PERPLEXITY: Infinity
+    The she the she the she the she the she the she the she the she the she the stars
+
+ ============November 6th 2015, 11:28:39 am============= 
+argmax PERPLEXITY: 5.97
+    The she the she the she the she the she so the she so the she so the she so the shall
+
+ ============November 6th 2015, 11:29:52 am============= 
+argmax PERPLEXITY: 5.62
+    The greath the she the shand the shand the shand the shand
+
+ ============November 6th 2015, 11:31:14 am============= 
+argmax PERPLEXITY: 4.52
+    The greas the shand the shand the shand the shand
+
+ ============November 6th 2015, 11:32:31 am============= 
+argmax PERPLEXITY: 7.36
+    The she she the she she she shall the shand the shand the shall the shall the shall
+
+ ============November 6th 2015, 11:33:43 am============= 
+argmax PERPLEXITY: 6.35
+    The she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 11:35:13 am============= 
+argmax PERPLEXITY: 5.51
+  And the shand the shand the shand the shand the shand the shall the shall
+
+ ============November 6th 2015, 11:36:36 am============= 
+argmax PERPLEXITY: 5.51
+  And the she so so so so so so so so so so so so so so so so so so so so so so so so so so so so so 
+ ============November 6th 2015, 11:37:43 am============= 
+argmax PERPLEXITY: 6.35
+  And the she with the she heart the shand the shand
+
+ ============November 6th 2015, 11:39:01 am============= 
+argmax PERPLEXITY: 9.60
+                                                                                                     
+ ============November 6th 2015, 11:40:21 am============= 
+argmax PERPLEXITY: 2.83
+    Then the she the she the she the she the she the she
+
+ ============November 6th 2015, 11:41:42 am============= 
+argmax PERPLEXITY: 6.18
+    The strand the streas the streas the streas the streas the streas the streas
+
+ ============November 6th 2015, 11:43:01 am============= 
+argmax PERPLEXITY: 7.21
+  And the streen the streen the stare the stare the stare
+
+ ============November 6th 2015, 11:44:22 am============= 
+argmax PERPLEXITY: 13.64
+    And the streas the stare the stare the stare the stare
+
+ ============November 6th 2015, 11:45:41 am============= 
+argmax PERPLEXITY: 7.62
+  And the streas the streas the streas the streas the stare
+
+ ============November 6th 2015, 11:46:57 am============= 
+argmax PERPLEXITY: Infinity
+    And the she stare the shands the shands the stare the stare
+
+ ============November 6th 2015, 11:48:15 am============= 
+argmax PERPLEXITY: 6.41
+  And the streas the stall the stall the stall the stall
+
+ ============November 6th 2015, 11:49:34 am============= 
+argmax PERPLEXITY: 7.78
+    And the greas the greas the greas the greas the stall
+
+ ============November 6th 2015, 11:50:55 am============= 
+argmax PERPLEXITY: 5.68
+  And the she some the she some the shang the shang the shang
+
+ ============November 6th 2015, 11:52:15 am============= 
+argmax PERPLEXITY: 5.51
+  And the greas the greas the greas the greas the greas the greas
+
+ ============November 6th 2015, 11:53:29 am============= 
+argmax PERPLEXITY: 3.66
+  And so shang the greas the greas the greas the greas the greas the greas
+
+ ============November 6th 2015, 11:54:38 am============= 
+argmax PERPLEXITY: 7.40
+  And so she sorrow so she sorrown the shand,
+
+ ============November 6th 2015, 11:55:59 am============= 
+argmax PERPLEXITY: 6.81
+                                                                                                     
+ ============November 6th 2015, 11:57:17 am============= 
+argmax PERPLEXITY: 7.74
+    And the she some so some so some so some so some so some
+
+ ============November 6th 2015, 11:58:37 am============= 
+argmax PERPLEXITY: 3.03
+    And the she so so so so so so so so so so so so so so so so so so so so so so so so so so so so s
+ ============November 6th 2015, 11:59:54 am============= 
+argmax PERPLEXITY: 10.16
+  And the she so she so she so shall
+
+ ============November 6th 2015, 12:01:13 pm============= 
+argmax PERPLEXITY: 6.29
+                                                                                                     
+ ============November 6th 2015, 12:02:39 pm============= 
+argmax PERPLEXITY: 10.81
+                                                                                                     
+ ============November 6th 2015, 12:03:52 pm============= 
+argmax PERPLEXITY: Infinity
+    And so she so she so shal the shal the shall
+
+ ============November 6th 2015, 12:04:53 pm============= 
+argmax PERPLEXITY: 6.36
+  And the she the she the she the she so she so she so she so she so she so she so she so she so she 
+ ============November 6th 2015, 12:05:56 pm============= 
+argmax PERPLEXITY: Infinity
+    The green the she so she so she so she so she so she so she so she
+
+ ============November 6th 2015, 12:06:54 pm============= 
+argmax PERPLEXITY: 10.63
+    The she so the songer the songers the songers the songer
+
+ ============November 6th 2015, 12:07:54 pm============= 
+argmax PERPLEXITY: 5.67
+    And so she so so sorers and so so so so sorers
+
+ ============November 6th 2015, 12:08:59 pm============= 
+argmax PERPLEXITY: 4.92
+                                                                                                     
+ ============November 6th 2015, 12:10:22 pm============= 
+argmax PERPLEXITY: 9.16
+                                                                                                     
+ ============November 6th 2015, 12:11:43 pm============= 
+argmax PERPLEXITY: 9.40
+                                                                                                     
+ ============November 6th 2015, 12:12:55 pm============= 
+argmax PERPLEXITY: 6.48
+                                                                                                     
+ ============November 6th 2015, 12:14:16 pm============= 
+argmax PERPLEXITY: 6.77
+                                                                                                     
+ ============November 6th 2015, 12:15:25 pm============= 
+argmax PERPLEXITY: Infinity
+    The she so she so she so she so she so she stare
+
+ ============November 6th 2015, 12:16:44 pm============= 
+argmax PERPLEXITY: 7.31
+                                                                                                     
+ ============November 6th 2015, 12:18:03 pm============= 
+argmax PERPLEXITY: 8.54
+                                                                                                     
+ ============November 6th 2015, 12:19:27 pm============= 
+argmax PERPLEXITY: 7.60
+                                                                                                     
+ ============November 6th 2015, 12:20:48 pm============= 
+argmax PERPLEXITY: 8.54
+                                                                                                     
+ ============November 6th 2015, 12:22:10 pm============= 
+argmax PERPLEXITY: 6.62
+    And she she she she she she she she she she she she
+
+ ============November 6th 2015, 12:23:28 pm============= 
+argmax PERPLEXITY: 2.68
+    And the she she she so she so she she she she she she she she she she she she she she
+
+ ============November 6th 2015, 12:24:47 pm============= 
+argmax PERPLEXITY: 9.49
+    And the she the she the she the she she the she she she she she she she she she she she she star
+
+ ============November 6th 2015, 12:26:09 pm============= 
+argmax PERPLEXITY: 4.94
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 12:27:36 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 12:28:45 pm============= 
+argmax PERPLEXITY: 5.09
+  And the she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 12:29:44 pm============= 
+argmax PERPLEXITY: 6.37
+  And the she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 12:30:50 pm============= 
+argmax PERPLEXITY: 6.03
+  And the she her the she her the she her she her she she she she she she she she she she she she she
+ ============November 6th 2015, 12:31:51 pm============= 
+argmax PERPLEXITY: Infinity
+  And the she her the she her the she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 12:32:56 pm============= 
+argmax PERPLEXITY: 4.04
+                                                                                                     
+ ============November 6th 2015, 12:34:08 pm============= 
+argmax PERPLEXITY: 5.27
+                                                                                                     
+ ============November 6th 2015, 12:35:37 pm============= 
+argmax PERPLEXITY: 5.69
+                                                                                                     
+ ============November 6th 2015, 12:36:52 pm============= 
+argmax PERPLEXITY: 5.20
+                                                                                                     
+ ============November 6th 2015, 12:38:22 pm============= 
+argmax PERPLEXITY: 6.25
+                                                                                                     
+ ============November 6th 2015, 12:39:55 pm============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 12:41:12 pm============= 
+argmax PERPLEXITY: 5.59
+                                                                                                     
+ ============November 6th 2015, 12:42:43 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 12:43:58 pm============= 
+argmax PERPLEXITY: 4.84
+                                                                                                     
+ ============November 6th 2015, 12:45:18 pm============= 
+argmax PERPLEXITY: 4.72
+                                                                                                     
+ ============November 6th 2015, 12:46:38 pm============= 
+argmax PERPLEXITY: 5.90
+                                                                                                     
+ ============November 6th 2015, 12:48:06 pm============= 
+argmax PERPLEXITY: 5.07
+                                                                                                     
+ ============November 6th 2015, 12:49:26 pm============= 
+argmax PERPLEXITY: 6.64
+                                                                                                     
+ ============November 6th 2015, 12:50:42 pm============= 
+argmax PERPLEXITY: 9.19
+                                                                                                     
+ ============November 6th 2015, 12:52:01 pm============= 
+argmax PERPLEXITY: 5.78
+  And the she the she the she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 12:53:26 pm============= 
+argmax PERPLEXITY: 7.41
+                                                                                                     
+ ============November 6th 2015, 12:54:39 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she the she the she the she the she the she the she she she she she she she she she she s
+ ============November 6th 2015, 12:56:00 pm============= 
+argmax PERPLEXITY: 5.59
+    And the she the she the she the she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 12:57:21 pm============= 
+argmax PERPLEXITY: 3.87
+  And the she the she the she the she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 12:58:45 pm============= 
+argmax PERPLEXITY: 80.28
+    And the she the she the she the she the she the she the she she she she she she she she she she s
+ ============November 6th 2015, 01:00:10 pm============= 
+argmax PERPLEXITY: 4.79
+                                                                                                     
+ ============November 6th 2015, 01:01:33 pm============= 
+argmax PERPLEXITY: 5.51
+  And the she the she the she the she the she the she the she the she the she the she the she the she
+ ============November 6th 2015, 01:02:55 pm============= 
+argmax PERPLEXITY: 7.28
+                                                                                                     
+ ============November 6th 2015, 01:04:15 pm============= 
+argmax PERPLEXITY: 36.34
+                                                                                                     
+ ============November 6th 2015, 01:05:35 pm============= 
+argmax PERPLEXITY: 5.65
+                                                                                                     
+ ============November 6th 2015, 01:07:02 pm============= 
+argmax PERPLEXITY: 4.61
+                                                                                                     
+ ============November 6th 2015, 01:08:30 pm============= 
+argmax PERPLEXITY: 3.18
+    The she the she the she so she the she so she so she so she so she so she so she so she so she so
+ ============November 6th 2015, 01:09:32 pm============= 
+argmax PERPLEXITY: 7.65
+    And the she so she so she so she so she so she so she so she so she so she so she so she so she s
+ ============November 6th 2015, 01:10:43 pm============= 
+argmax PERPLEXITY: 8.53
+                                                                                                     
+ ============November 6th 2015, 01:11:47 pm============= 
+argmax PERPLEXITY: 5.69
+                                                                                                     
+ ============November 6th 2015, 01:12:53 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 01:14:06 pm============= 
+argmax PERPLEXITY: 9.65
+                                                                                                     
+ ============November 6th 2015, 01:15:10 pm============= 
+argmax PERPLEXITY: 5.22
+                                                                                                     
+ ============November 6th 2015, 01:16:15 pm============= 
+argmax PERPLEXITY: 6.78
+                                                                                                     
+ ============November 6th 2015, 01:17:21 pm============= 
+argmax PERPLEXITY: 8.64
+                                                                                                     
+ ============November 6th 2015, 01:18:22 pm============= 
+argmax PERPLEXITY: 7.67
+                                                                                                     
+ ============November 6th 2015, 01:19:25 pm============= 
+argmax PERPLEXITY: 9.20
+                                                                                                     
+ ============November 6th 2015, 01:20:47 pm============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 01:22:09 pm============= 
+argmax PERPLEXITY: 5.51
+    And the she the she the she she the she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 01:23:30 pm============= 
+argmax PERPLEXITY: 7.32
+                                                                                                     
+ ============November 6th 2015, 01:24:54 pm============= 
+argmax PERPLEXITY: 7.09
+                                                                                                     
+ ============November 6th 2015, 01:25:57 pm============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 01:27:14 pm============= 
+argmax PERPLEXITY: 5.37
+                                                                                                     
+ ============November 6th 2015, 01:28:40 pm============= 
+argmax PERPLEXITY: 19.51
+                                                                                                     
+ ============November 6th 2015, 01:30:02 pm============= 
+argmax PERPLEXITY: 6.53
+                                                                                                     
+ ============November 6th 2015, 01:31:21 pm============= 
+argmax PERPLEXITY: 3.43
+                                                                                                     
+ ============November 6th 2015, 01:32:52 pm============= 
+argmax PERPLEXITY: 6.00
+                                                                                                     
+ ============November 6th 2015, 01:34:05 pm============= 
+argmax PERPLEXITY: 5.43
+                                                                                                     
+ ============November 6th 2015, 01:35:23 pm============= 
+argmax PERPLEXITY: 6.25
+                                                                                                     
+ ============November 6th 2015, 01:36:53 pm============= 
+argmax PERPLEXITY: 7.84
+                                                                                                     
+ ============November 6th 2015, 01:38:13 pm============= 
+argmax PERPLEXITY: 6.04
+    The she the she the she the she so the she so the she so the she so the she so the she so the she
+ ============November 6th 2015, 01:39:21 pm============= 
+argmax PERPLEXITY: 5.01
+    The she the she the she the she the she the she the she so the she so the she so the she so the s
+ ============November 6th 2015, 01:40:34 pm============= 
+argmax PERPLEXITY: 6.23
+    The she the she the she the she the she the she the she the she the she the she the she the she t
+ ============November 6th 2015, 01:41:50 pm============= 
+argmax PERPLEXITY: 5.59
+    The she the she the she the she the she the she the she the she the she the she the she the she t
+ ============November 6th 2015, 01:43:06 pm============= 
+argmax PERPLEXITY: 5.58
+    The she the she the she the she the she the she the strow
+
+ ============November 6th 2015, 01:44:31 pm============= 
+argmax PERPLEXITY: 5.37
+                                                                                                     
+ ============November 6th 2015, 01:45:41 pm============= 
+argmax PERPLEXITY: Infinity
+    The shand the shand the shand the shand the shand
+
+ ============November 6th 2015, 01:46:50 pm============= 
+argmax PERPLEXITY: 6.58
+                                                                                                     
+ ============November 6th 2015, 01:48:09 pm============= 
+argmax PERPLEXITY: 8.68
+    And the she the she the she the she the she the she the starm
+
+ ============November 6th 2015, 01:49:23 pm============= 
+argmax PERPLEXITY: 5.89
+    And the she the more the she the she the she the she the she the she the she the she the she the 
+ ============November 6th 2015, 01:50:24 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 01:51:26 pm============= 
+argmax PERPLEXITY: 8.41
+    And the she the she the shand the shand the shand
+
+ ============November 6th 2015, 01:52:31 pm============= 
+argmax PERPLEXITY: 7.37
+    The she the she some the some the she some the she some the she some
+
+ ============November 6th 2015, 01:53:40 pm============= 
+argmax PERPLEXITY: 7.99
+    The she the she the she the she the she the she the she the she the strees
+
+ ============November 6th 2015, 01:54:45 pm============= 
+argmax PERPLEXITY: 8.66
+    The she she the she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 01:55:49 pm============= 
+argmax PERPLEXITY: 6.89
+    The she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 01:56:56 pm============= 
+argmax PERPLEXITY: Infinity
+    The she the she the she she the she she she still the she still the she still the starl
+
+ ============November 6th 2015, 01:58:00 pm============= 
+argmax PERPLEXITY: 5.83
+    The she she she she she she she she she she she she she she still
+
+ ============November 6th 2015, 01:59:10 pm============= 
+argmax PERPLEXITY: 5.55
+    The she the she the shall the shall the shall the shall
+
+ ============November 6th 2015, 02:00:21 pm============= 
+argmax PERPLEXITY: 2.69
+    The she she the she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 02:01:42 pm============= 
+argmax PERPLEXITY: 8.27
+    The greast the she she she she she she she she she she she she she she she she she she she she sh
+ ============November 6th 2015, 02:02:54 pm============= 
+argmax PERPLEXITY: 8.00
+    The grees the she she she she she strow
+
+ ============November 6th 2015, 02:04:10 pm============= 
+argmax PERPLEXITY: 8.20
+    The gree the she with the she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:05:19 pm============= 
+argmax PERPLEXITY: 4.70
+  The she the she the she the she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:06:32 pm============= 
+argmax PERPLEXITY: 8.21
+  The she the she the she the she the she the she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:07:50 pm============= 
+argmax PERPLEXITY: 6.99
+    The she the she the she the she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 02:09:19 pm============= 
+argmax PERPLEXITY: 6.70
+                                                                                                     
+ ============November 6th 2015, 02:10:40 pm============= 
+argmax PERPLEXITY: 6.76
+    The she the she the she the she the she the she the she the she the she the she the she the she t
+ ============November 6th 2015, 02:12:03 pm============= 
+argmax PERPLEXITY: 4.67
+    The gree the she the she the she the she the she the she the she the she the she the she the she 
+ ============November 6th 2015, 02:13:34 pm============= 
+argmax PERPLEXITY: 4.51
+                                                                                                     
+ ============November 6th 2015, 02:14:50 pm============= 
+argmax PERPLEXITY: 6.94
+    The gent the she she she she she she she she she she she she she she she she she she she she she 
+ ============November 6th 2015, 02:16:05 pm============= 
+argmax PERPLEXITY: 3.78
+    And the she the she the she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 02:17:26 pm============= 
+argmax PERPLEXITY: 5.54
+    And the she she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 02:18:44 pm============= 
+argmax PERPLEXITY: 6.08
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 02:19:59 pm============= 
+argmax PERPLEXITY: 4.91
+  And she she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:21:05 pm============= 
+argmax PERPLEXITY: 79.93
+  And the she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:22:11 pm============= 
+argmax PERPLEXITY: Infinity
+  And the she she the she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:23:31 pm============= 
+argmax PERPLEXITY: 91.93
+    And the she the she the she the she the she she the she she she she she she she she she she she s
+ ============November 6th 2015, 02:24:49 pm============= 
+argmax PERPLEXITY: 8.27
+  And the she the she she the she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:26:11 pm============= 
+argmax PERPLEXITY: 5.55
+    And the she the she the she the she the she the she she she she she she she she she she she she s
+ ============November 6th 2015, 02:27:33 pm============= 
+argmax PERPLEXITY: 5.83
+                                                                                                     
+ ============November 6th 2015, 02:28:58 pm============= 
+argmax PERPLEXITY: 9.62
+    And the she the she the she the she the she she she she she she she she she she she she she she s
+ ============November 6th 2015, 02:30:20 pm============= 
+argmax PERPLEXITY: 4.62
+                                                                                                     
+ ============November 6th 2015, 02:31:59 pm============= 
+argmax PERPLEXITY: 5.25
+                                                                                                     
+ ============November 6th 2015, 02:33:30 pm============= 
+argmax PERPLEXITY: 4.98
+                                                                                                     
+ ============November 6th 2015, 02:34:53 pm============= 
+argmax PERPLEXITY: 6.62
+    The she the she the she the she the she the she the she the she the she the she the she the she t
+ ============November 6th 2015, 02:36:25 pm============= 
+argmax PERPLEXITY: 7.22
+    The she the she the she the she the she the she the she the she the she the she the she the she t
+ ============November 6th 2015, 02:37:52 pm============= 
+argmax PERPLEXITY: Infinity
+    The she she the she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 02:39:10 pm============= 
+argmax PERPLEXITY: 7.33
+    The green the she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:40:23 pm============= 
+argmax PERPLEXITY: 9.53
+                                                                                                     
+ ============November 6th 2015, 02:41:27 pm============= 
+argmax PERPLEXITY: 10.63
+    And the gent the she she she she she she she she she she she she she she she she she she she she 
+ ============November 6th 2015, 02:42:44 pm============= 
+argmax PERPLEXITY: 5.95
+    And the she the gent the she she she she she she she she she she she she she she she she she she 
+ ============November 6th 2015, 02:43:49 pm============= 
+argmax PERPLEXITY: 6.73
+  And the she the she the she the she the she she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:44:55 pm============= 
+argmax PERPLEXITY: 7.19
+  And the she the she the she the she the she the she the she shed the she shed the stars
+
+ ============November 6th 2015, 02:46:01 pm============= 
+argmax PERPLEXITY: 5.22
+    The she the she the she the she the she the she the she the she she shed the she shed the she she
+ ============November 6th 2015, 02:47:06 pm============= 
+argmax PERPLEXITY: 5.68
+    And the she the she the she the she the she she she she she shed the stars
+
+ ============November 6th 2015, 02:48:16 pm============= 
+argmax PERPLEXITY: 7.14
+    And the streas the streas the start the started the started the start
+
+ ============November 6th 2015, 02:49:34 pm============= 
+argmax PERPLEXITY: 5.76
+    And the she the she the she the she the start the start
+
+ ============November 6th 2015, 02:50:55 pm============= 
+argmax PERPLEXITY: 9.31
+    The string the string the string the string the string
+
+ ============November 6th 2015, 02:52:18 pm============= 
+argmax PERPLEXITY: 5.84
+                                                                                                     
+ ============November 6th 2015, 02:53:37 pm============= 
+argmax PERPLEXITY: 13.59
+    The she the she the she the start the start
+
+ ============November 6th 2015, 02:55:00 pm============= 
+argmax PERPLEXITY: 9.94
+                                                                                                     
+ ============November 6th 2015, 02:56:17 pm============= 
+argmax PERPLEXITY: 4.15
+  And the she she she she she she she she she she start
+
+ ============November 6th 2015, 02:57:40 pm============= 
+argmax PERPLEXITY: 5.66
+  And she she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 02:58:56 pm============= 
+argmax PERPLEXITY: 5.19
+  And she she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 03:00:17 pm============= 
+argmax PERPLEXITY: 9.58
+  And she she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 03:01:42 pm============= 
+argmax PERPLEXITY: 11.30
+  And she she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 03:02:59 pm============= 
+argmax PERPLEXITY: Infinity
+  And she she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 03:04:20 pm============= 
+argmax PERPLEXITY: 6.10
+  And she she the she she the she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 03:05:44 pm============= 
+argmax PERPLEXITY: 4.89
+                                                                                                     
+ ============November 6th 2015, 03:07:06 pm============= 
+argmax PERPLEXITY: 4.52
+    The she her she her she her she her she her she her she her she her she her she her shed shed she
+ ============November 6th 2015, 03:08:29 pm============= 
+argmax PERPLEXITY: 12.82
+    The she the she she the she she the she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:09:47 pm============= 
+argmax PERPLEXITY: 6.00
+  The she she the she she the she she the she she she she she she she she she she she she she she she
+ ============November 6th 2015, 03:11:06 pm============= 
+argmax PERPLEXITY: 6.35
+  And the she she the she the she she the she she she she she she she she she she she she she she she
+ ============November 6th 2015, 03:12:22 pm============= 
+argmax PERPLEXITY: Infinity
+    The she the she she the she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:13:37 pm============= 
+argmax PERPLEXITY: 6.14
+    And the she she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:14:57 pm============= 
+argmax PERPLEXITY: Infinity
+    The she the she the she the she she the she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:16:12 pm============= 
+argmax PERPLEXITY: 5.14
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:17:26 pm============= 
+argmax PERPLEXITY: 7.99
+    The she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:18:48 pm============= 
+argmax PERPLEXITY: 8.71
+    The she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:19:48 pm============= 
+argmax PERPLEXITY: 6.66
+    The she she the she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:20:51 pm============= 
+argmax PERPLEXITY: 6.11
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:21:59 pm============= 
+argmax PERPLEXITY: 7.61
+    The she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:23:08 pm============= 
+argmax PERPLEXITY: 7.37
+  And the she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 03:24:15 pm============= 
+argmax PERPLEXITY: 8.51
+    And the she she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:25:18 pm============= 
+argmax PERPLEXITY: 5.43
+    The she she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:26:24 pm============= 
+argmax PERPLEXITY: 3.08
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:27:27 pm============= 
+argmax PERPLEXITY: 4.47
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:28:34 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:29:43 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:30:58 pm============= 
+argmax PERPLEXITY: 7.88
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:32:10 pm============= 
+argmax PERPLEXITY: 6.50
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:33:20 pm============= 
+argmax PERPLEXITY: 6.92
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:34:39 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:36:01 pm============= 
+argmax PERPLEXITY: 5.84
+    The she the she she the she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:37:26 pm============= 
+argmax PERPLEXITY: 7.86
+                                                                                                     
+ ============November 6th 2015, 03:38:44 pm============= 
+argmax PERPLEXITY: 5.24
+                                                                                                     
+ ============November 6th 2015, 03:40:04 pm============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 03:41:17 pm============= 
+argmax PERPLEXITY: 6.76
+    The she the she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:42:39 pm============= 
+argmax PERPLEXITY: 6.06
+    The she the she the she the she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 03:44:03 pm============= 
+argmax PERPLEXITY: 7.26
+    And the the where the the where the she the she the she the she the she the she the she the she t
+ ============November 6th 2015, 03:45:26 pm============= 
+argmax PERPLEXITY: 6.23
+    And the she the she the she the she the she the she the she she she she she she she she she she s
+ ============November 6th 2015, 03:46:40 pm============= 
+argmax PERPLEXITY: 9.23
+    And the she the she the she the she the she the she she the she she she she she she she she she s
+ ============November 6th 2015, 03:48:09 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she the she the she the she the she the she the she the she the she the she the she the s
+ ============November 6th 2015, 03:49:30 pm============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 03:50:55 pm============= 
+argmax PERPLEXITY: 2.55
+                                                                                                     
+ ============November 6th 2015, 03:52:10 pm============= 
+argmax PERPLEXITY: 184.45
+    And the the still the still the still the still the still the still the start
+
+ ============November 6th 2015, 03:53:21 pm============= 
+argmax PERPLEXITY: Infinity
+    And the still the still the still the still the still the still the start
+
+ ============November 6th 2015, 03:54:32 pm============= 
+argmax PERPLEXITY: 4.77
+    And the heart the she the she the she the she the she the she the she the she the she the she the
+ ============November 6th 2015, 03:55:44 pm============= 
+argmax PERPLEXITY: 7.70
+  And the her the she the she the shall and the shand
+
+ ============November 6th 2015, 03:57:04 pm============= 
+argmax PERPLEXITY: 5.74
+    And the heart the she the she the she the she the she she the she she she she she she she she she
+ ============November 6th 2015, 03:58:16 pm============= 
+argmax PERPLEXITY: 4.41
+    And the heart the she the she the she the she she she she she she she she still and the she still
+ ============November 6th 2015, 03:59:37 pm============= 
+argmax PERPLEXITY: 6.01
+                                                                                                     
+ ============November 6th 2015, 04:01:03 pm============= 
+argmax PERPLEXITY: 7.48
+                                                                                                     
+ ============November 6th 2015, 04:02:31 pm============= 
+argmax PERPLEXITY: 5.50
+    And the she the she the she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 04:03:53 pm============= 
+argmax PERPLEXITY: 4.19
+  And the her the she the she the shall the shall the shall the shall the shall
+
+ ============November 6th 2015, 04:05:22 pm============= 
+argmax PERPLEXITY: 6.06
+  And the her the shand the shand the shall the shall the shall the shall the shall the shall
+
+ ============November 6th 2015, 04:06:33 pm============= 
+argmax PERPLEXITY: Infinity
+  And the she the she the she she she she she she she she she she she she she she she she share
+
+ ============November 6th 2015, 04:07:52 pm============= 
+argmax PERPLEXITY: 4.19
+  And the she the she the she the she the she she she she she she she she she she she she she she she
+ ============November 6th 2015, 04:09:06 pm============= 
+argmax PERPLEXITY: Infinity
+  And the her the her the she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 04:10:13 pm============= 
+argmax PERPLEXITY: 5.86
+                                                                                                     
+ ============November 6th 2015, 04:11:23 pm============= 
+argmax PERPLEXITY: 6.22
+                                                                                                     
+ ============November 6th 2015, 04:12:29 pm============= 
+argmax PERPLEXITY: 6.25
+    And the greasher the greast the shand the shall the shall the shall the shall the shall the shall
+ ============November 6th 2015, 04:13:37 pm============= 
+argmax PERPLEXITY: 6.34
+                                                                                                     
+ ============November 6th 2015, 04:14:50 pm============= 
+argmax PERPLEXITY: 9.33
+                                                                                                     
+ ============November 6th 2015, 04:15:59 pm============= 
+argmax PERPLEXITY: 9.78
+    And the she shan the shand the shand the shand
+
+ ============November 6th 2015, 04:17:06 pm============= 
+argmax PERPLEXITY: 5.46
+    And the she the she she she she she she she she she she shall
+
+ ============November 6th 2015, 04:18:14 pm============= 
+argmax PERPLEXITY: 6.43
+    And the she she she she she she shall the shan the shand
+
+ ============November 6th 2015, 04:19:25 pm============= 
+argmax PERPLEXITY: 4.24
+                                                                                                     
+ ============November 6th 2015, 04:20:43 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 04:22:00 pm============= 
+argmax PERPLEXITY: 4.94
+    And the she the she the she so the she so the she so the she so the she she she she she she she s
+ ============November 6th 2015, 04:23:18 pm============= 
+argmax PERPLEXITY: 4.46
+    And the she she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 04:24:38 pm============= 
+argmax PERPLEXITY: 9.26
+    The she the she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 04:26:02 pm============= 
+argmax PERPLEXITY: 5.19
+    The she the she the she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 04:27:25 pm============= 
+argmax PERPLEXITY: 5.90
+    The she so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so
+ ============November 6th 2015, 04:28:41 pm============= 
+argmax PERPLEXITY: Infinity
+  The greas the she so so so so so so so so so so so so so so so so so so so so so so so so so so so 
+ ============November 6th 2015, 04:30:03 pm============= 
+argmax PERPLEXITY: 4.92
+  The she the she she the she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 04:31:17 pm============= 
+argmax PERPLEXITY: 6.10
+  The hear the she she the she she she she she she she she she she she she she she she she she she sh
+ ============November 6th 2015, 04:32:36 pm============= 
+argmax PERPLEXITY: 5.44
+    The greas the greas the she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 04:34:00 pm============= 
+argmax PERPLEXITY: 5.64
+    The greath the greas the greas the greas the greas the greast
+
+ ============November 6th 2015, 04:35:14 pm============= 
+argmax PERPLEXITY: 5.29
+    The greas the greas the greas the greas the greas the greas
+
+ ============November 6th 2015, 04:36:20 pm============= 
+argmax PERPLEXITY: 4.97
+    The greas the greas the greas the greas the greas the greas
+
+ ============November 6th 2015, 04:37:35 pm============= 
+argmax PERPLEXITY: 10.08
+    The greas the greas the greas the greas the meart
+
+ ============November 6th 2015, 04:38:50 pm============= 
+argmax PERPLEXITY: 5.26
+    The greas the greast the shang the shand the shand
+
+ ============November 6th 2015, 04:39:58 pm============= 
+argmax PERPLEXITY: 4.25
+    The greas the greas the shand the shand the shand the shand the shand
+
+ ============November 6th 2015, 04:41:07 pm============= 
+argmax PERPLEXITY: 8.34
+    The she the she she she she shang the shang the shang the shang the shang
+
+ ============November 6th 2015, 04:42:04 pm============= 
+argmax PERPLEXITY: Infinity
+    The she she she she she she she share
+
+ ============November 6th 2015, 04:43:01 pm============= 
+argmax PERPLEXITY: 9.07
+    The greas the she her she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 04:44:14 pm============= 
+argmax PERPLEXITY: 10.98
+                                                                                                     
+ ============November 6th 2015, 04:45:26 pm============= 
+argmax PERPLEXITY: 5.41
+                                                                                                     
+ ============November 6th 2015, 04:46:33 pm============= 
+argmax PERPLEXITY: 5.62
+    The she the she she the she she she she she she share
+
+ ============November 6th 2015, 04:47:38 pm============= 
+argmax PERPLEXITY: 8.22
+  And the she she the she she shall the shall the shall the shall the shall the shall the shall the s
+ ============November 6th 2015, 04:48:44 pm============= 
+argmax PERPLEXITY: 7.99
+  And the she the shand the shand the shand the shand the shand
+
+ ============November 6th 2015, 04:50:03 pm============= 
+argmax PERPLEXITY: 6.93
+                                                                                                     
+ ============November 6th 2015, 04:51:22 pm============= 
+argmax PERPLEXITY: 8.28
+                                                                                                     
+ ============November 6th 2015, 04:52:43 pm============= 
+argmax PERPLEXITY: 8.80
+                                                                                                     
+ ============November 6th 2015, 04:54:14 pm============= 
+argmax PERPLEXITY: 6.81
+                                                                                                     
+ ============November 6th 2015, 04:55:34 pm============= 
+argmax PERPLEXITY: 6.72
+                                                                                                     
+ ============November 6th 2015, 04:56:54 pm============= 
+argmax PERPLEXITY: 7.34
+    The she the the she the she the shall the shall
+
+ ============November 6th 2015, 04:58:17 pm============= 
+argmax PERPLEXITY: 6.53
+                                                                                                     
+ ============November 6th 2015, 04:59:40 pm============= 
+argmax PERPLEXITY: 4.90
+    The greas the she the shall the shall the shall the shall the shall the shall the shall the shall
+ ============November 6th 2015, 05:00:55 pm============= 
+argmax PERPLEXITY: 7.03
+    The greas the she the she the she the she the shall the shall the shall the shall the shall the s
+ ============November 6th 2015, 05:02:12 pm============= 
+argmax PERPLEXITY: 6.58
+  And the she she she she she she she she she she she she she she she shall the she shall the she sha
+ ============November 6th 2015, 05:03:32 pm============= 
+argmax PERPLEXITY: 7.11
+    And the she she she she she she she she she she she she she she shall the she shall the she shall
+ ============November 6th 2015, 05:04:48 pm============= 
+argmax PERPLEXITY: 3.03
+    The greas the she she she she she she she she she she shall the she shall the shall the shall the
+ ============November 6th 2015, 05:06:06 pm============= 
+argmax PERPLEXITY: 6.10
+    The greas the men the men the she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 05:07:28 pm============= 
+argmax PERPLEXITY: 4.84
+    The greas the she her her shant the shant the shant
+
+ ============November 6th 2015, 05:08:52 pm============= 
+argmax PERPLEXITY: 5.50
+    The greas the she her the shall the shall the shall the shall the shall the shall the shall the s
+ ============November 6th 2015, 05:10:13 pm============= 
+argmax PERPLEXITY: Infinity
+    The greas the greas the shall the shall the shall the shall the shall and shall and shall and sha
+ ============November 6th 2015, 05:11:38 pm============= 
+argmax PERPLEXITY: 8.60
+                                                                                                     
+ ============November 6th 2015, 05:13:06 pm============= 
+argmax PERPLEXITY: 8.13
+                                                                                                     
+ ============November 6th 2015, 05:14:22 pm============= 
+argmax PERPLEXITY: 6.77
+    The shan the shall the shall the shall the shall the shall and strain
+
+ ============November 6th 2015, 05:15:55 pm============= 
+argmax PERPLEXITY: 12.12
+                                                                                                     
+ ============November 6th 2015, 05:17:17 pm============= 
+argmax PERPLEXITY: 5.36
+  And the greas the greas the greast the greast and strair
+
+ ============November 6th 2015, 05:18:28 pm============= 
+argmax PERPLEXITY: 4.21
+  And the greas the greas the shall the shall the shall the shall the shall the shall the shall and s
+ ============November 6th 2015, 05:19:37 pm============= 
+argmax PERPLEXITY: 5.71
+    And the strain the strain the strain the strain,
+
+ ============November 6th 2015, 05:20:40 pm============= 
+argmax PERPLEXITY: 5.79
+  And the she the she she she she she she she stray the streame
+
+ ============November 6th 2015, 05:21:43 pm============= 
+argmax PERPLEXITY: 5.95
+  And the shand the shall the shall the shall the shall the shall the shall the shall the shall
+
+ ============November 6th 2015, 05:22:44 pm============= 
+argmax PERPLEXITY: 5.62
+  And the shan the shall the shall the shall the shall the shall the shall
+
+ ============November 6th 2015, 05:23:42 pm============= 
+argmax PERPLEXITY: 6.20
+  And the greas the maning the shand the shall the shall the shall the shall the shall the shall the 
+ ============November 6th 2015, 05:24:47 pm============= 
+argmax PERPLEXITY: 3.38
+    And the greas the greas the greas the greas the greas the greas the dead
+
+ ============November 6th 2015, 05:25:59 pm============= 
+argmax PERPLEXITY: 10.43
+    And the she the she the she she the she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 05:27:00 pm============= 
+argmax PERPLEXITY: 4.81
+    And the she the she the she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 05:28:03 pm============= 
+argmax PERPLEXITY: 7.22
+    And the she the she she the she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 05:29:01 pm============= 
+argmax PERPLEXITY: 6.12
+  And the she some the she some some some some some some some some some some some some some some some
+ ============November 6th 2015, 05:30:22 pm============= 
+argmax PERPLEXITY: 5.16
+  And the shand the shall the shall the shall the shall the shall the shall the shall the shall the s
+ ============November 6th 2015, 05:31:39 pm============= 
+argmax PERPLEXITY: 7.38
+  And the she she she she she she she she she she she she she she she she she she she she she she she
+ ============November 6th 2015, 05:32:59 pm============= 
+argmax PERPLEXITY: 3.47
+    And the she the she the she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 05:34:17 pm============= 
+argmax PERPLEXITY: 7.00
+    And the she the she the shall the shall the shall the shall the shall the shall the shall the sha
+ ============November 6th 2015, 05:35:39 pm============= 
+argmax PERPLEXITY: 5.98
+  And the she the she the she she she she she she shall the shall the shall the shall the shall the s
+ ============November 6th 2015, 05:37:09 pm============= 
+argmax PERPLEXITY: 6.44
+    And the manse the manst the she some the shand the shall the shall the shall the shall the shall 
+ ============November 6th 2015, 05:38:30 pm============= 
+argmax PERPLEXITY: 8.14
+    And the more the more the more the more the more the more the dead
+
+ ============November 6th 2015, 05:39:50 pm============= 
+argmax PERPLEXITY: 5.85
+                                                                                                     
+ ============November 6th 2015, 05:41:06 pm============= 
+argmax PERPLEXITY: Infinity
+    The dead the dead the dead the dead,
+
+ ============November 6th 2015, 05:42:28 pm============= 
+argmax PERPLEXITY: 6.62
+                                                                                                     
+ ============November 6th 2015, 05:43:52 pm============= 
+argmax PERPLEXITY: 8.07
+    The greas the deaded the deaded the deaded
+
+ ============November 6th 2015, 05:45:14 pm============= 
+argmax PERPLEXITY: 7.86
+    And the she the she the she the she the she she she she she she she she she she she she she she s
+ ============November 6th 2015, 05:46:37 pm============= 
+argmax PERPLEXITY: 6.24
+                                                                                                     
+ ============November 6th 2015, 05:47:58 pm============= 
+argmax PERPLEXITY: 8.91
+                                                                                                     
+ ============November 6th 2015, 05:49:22 pm============= 
+argmax PERPLEXITY: 5.08
+                                                                                                     
+ ============November 6th 2015, 05:50:51 pm============= 
+argmax PERPLEXITY: 5.71
+                                                                                                     
+ ============November 6th 2015, 05:52:13 pm============= 
+argmax PERPLEXITY: 5.82
+    When the shan the shall the shall the shall the shall the shall the shall the shall the shall the
+ ============November 6th 2015, 05:53:38 pm============= 
+argmax PERPLEXITY: 4.84
+    The she the shall the shall the shall the shall the shall the shall
+
+ ============November 6th 2015, 05:55:02 pm============= 
+argmax PERPLEXITY: Infinity
+                                                                                                     
+ ============November 6th 2015, 05:56:23 pm============= 
+argmax PERPLEXITY: 4.83
+                                                                                                     
+ ============November 6th 2015, 05:57:49 pm============= 
+argmax PERPLEXITY: 3.37
+                                                                                                     
+ ============November 6th 2015, 05:59:05 pm============= 
+argmax PERPLEXITY: 5.00
+    The she the she the she the she the she the she she the she she she she she she she she she she s
+ ============November 6th 2015, 06:00:21 pm============= 
+argmax PERPLEXITY: Infinity
+    The she the she some the she some the she some the she she some the she she she some the she she 
+ ============November 6th 2015, 06:01:38 pm============= 
+argmax PERPLEXITY: 6.86
+    The she the she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 06:03:08 pm============= 
+argmax PERPLEXITY: 4.03
+    The she the she she she she she she she she she she she she she she she she she she she she she s
+ ============November 6th 2015, 06:04:28 pm============= 
+argmax PERPLEXITY: 5.38
+    And the she some the shall the shall the shall the shall the shall the shall the shall the shall 
+ ============November 6th 2015, 06:05:43 pm============= 
+argmax PERPLEXITY: 7.09
+  And the some the some the she some the she some the shand
+
+ ============November 6th 2015, 06:07:02 pm============= 
+argmax PERPLEXITY: 6.60
+    And the some the some the some the some the she some the shand
+
+ ============November 6th 2015, 06:08:28 pm============= 
+argmax PERPLEXITY: Infinity
+    And the she some the she she she she she she she she she she she she she she she she she she she 
+ ============November 6th 2015, 06:09:43 pm============= 
+argmax PERPLEXITY: 4.52
+    And the she the she she she she she she she she she she she she she share the shall
+
+ ============November 6th 2015, 06:10:48 pm============= 
+argmax PERPLEXITY: 7.31
+    And the she the greas the shang the shang,
+
+ ============November 6th 2015, 06:11:57 pm============= 
+argmax PERPLEXITY: 5.16
+    And the shang the shang the shang the shang,
+
+ ============November 6th 2015, 06:13:08 pm============= 
+argmax PERPLEXITY: 6.69
+    And the shang the shang the shang the shang,
+
+ ============November 6th 2015, 06:14:18 pm============= 
+argmax PERPLEXITY: 4.74
+    And the she the shall the shall the shall the shall
+
+ ============November 6th 2015, 06:15:42 pm============= 
+argmax PERPLEXITY: 6.75
+    And the she the she the she the she the shall
+
+ ============November 6th 2015, 06:17:01 pm============= 
+argmax PERPLEXITY: 8.89
+    And the soon the soon the soon the soon the shand
+
+ ============November 6th 2015, 06:18:29 pm============= 
+argmax PERPLEXITY: 5.25
+    And the so the she the shant the shant the shant
+
+ ============November 6th 2015, 06:19:51 pm============= 
+argmax PERPLEXITY: 7.15
+  And the she the shang the shang the shand the shand
+
+ ============November 6th 2015, 06:21:05 pm============= 
+argmax PERPLEXITY: 4.65
+  And the she the she the she the she the shand
+
+ ============November 6th 2015, 06:22:29 pm============= 
+argmax PERPLEXITY: 4.49
+    And the some the some the some the shand
